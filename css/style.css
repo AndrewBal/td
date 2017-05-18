@@ -152,6 +152,14 @@ a{
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Conv_Proxima Nova Extrabold';
+    src: url('fonts/Proxima Nova Extrabold.eot');
+    src: local('☺'), url('../fonts/Proxima Nova Extrabold.woff') format('woff'), url('fonts/Proxima Nova Extrabold.ttf') format('truetype'), url('fonts/Proxima Nova Extrabold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 
 body {
@@ -188,6 +196,7 @@ body {
     font-weight: bold;
     font-size: 16px;
     padding-bottom: 5px;
+    transition: all .3s;
 }
 
 .nav_bar ul li:hover {
@@ -229,4 +238,98 @@ body {
     width: 30px;
     height: 4px;
     background-color: black;
+}
+.content_block {
+    padding: 50px 50px;
+    height: 580px;  
+}
+.main_block {
+    margin: 150px 140px;
+    width: 770px;
+    height: 425px;
+    background-color: white;
+    box-shadow: 5px 10px 50px #60453f;
+}
+
+.main_block h1 {
+     font-family: 'Conv_Proxima Nova Extrabold';
+     font-size: 55px;
+     font-weight: bold;
+     text-transform: uppercase;
+     color: #1c1d23;
+     padding: 55px 55px; 
+}
+
+.line_4 {
+    left: 253px;
+    top: 599px;
+    position: absolute;
+    width: 57px;
+    height: 4px;
+    background-color: #309afb;
+}
+
+.main_block p {
+    margin: -45px 35px;
+    color: #7a7a7a;
+    font-family: 'Conv_Proxima Nova Regular';
+    padding: 25px 25px; 
+    font-size: 19px;
+}
+
+  .content_block img.man {
+    position: absolute;
+    margin: -680px 660px;
+    
+}
+
+.content_block img.tablet {
+    position: absolute;
+    margin: -567px 813px;
+    z-index: -1;
+}
+
+.slide_down_btn {
+    margin: 0 670px;
+    cursor: pointer;
+}
+
+.switcher {
+    margin: -100px 0;
+}
+
+.dot_0 {
+    margin: 10px 1250px;
+    background-color: #0066ff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.dot_1 {
+    margin: 10px 1250px;
+    background-color: #cc3715;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.dot_2 {
+    margin: 10px 1250px;
+    background-color: #cc3715;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.dot_3 {
+    margin: 10px 1250px;
+    background-color: #cc3715;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.dot_4 {
+    margin: 10px 1250px;
+    background-color: #cc3715;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
 }
