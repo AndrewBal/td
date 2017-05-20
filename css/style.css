@@ -162,7 +162,7 @@ a{
 
 
 
-body {
+.main_page {
     background-color: #ff451a;
 }
 .wrapper {
@@ -171,7 +171,7 @@ body {
 
 .logo {
     margin-left: 75px;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
  .nav_bar {
@@ -296,6 +296,7 @@ body {
 
 .switcher {
     margin: -100px 0;
+    padding-bottom: 145px ;
 }
 
 .dot_0 {
@@ -332,4 +333,61 @@ body {
     width: 10px;
     height: 10px;
     border-radius: 50%;
+}
+
+
+.news_page {
+    background-color: #ededed;
+}
+
+.news_h {
+    font-family: 'Conv_Proxima Nova Extrabold';
+    font-weight: bold;
+    vertical-align: top;
+    font-weight: 800;
+    font-size: 60px;
+    float: left;
+    margin: 220px 20px;
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+}
+
+.news_wrap {
+    display: inline-block;
+    width: 950px;
+}
+
+.news_item {
+    border-left: 1px solid #c6c6c6;
+    margin: 110px -70px;
+}
+
+.news_image {
+    display: block;
+    background-color: grey;
+    width: 230px;
+    height: 230px;
+    margin: 0 45px;
+    -webkit-box-shadow: 4px 6px 30px -4px rgba(0,0,0,1);
+    -moz-box-shadow: 4px 6px 30px -4px rgba(0,0,0,1);
+    box-shadow: 4px 6px 30px -4px rgba(0,0,0,1);
+}
+
+
+.news_text {
+    font-family: 'Conv_Proxima Nova Regular';
+    color: black;
+    font-size: 12px;
+    width: 300px;
+    margin: 26px 26px;
+    line-height: 1.5;
+}
+
+.news_title {
+    color: #ff451a;
+    font-size: 24px;
+    font-family: 'Conv_Proxima Nova Extrabold';
+    font-weight: bold;
+    margin: -10px 26px;
 }
