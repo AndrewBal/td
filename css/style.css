@@ -410,9 +410,13 @@ a{
     margin: -10px 26px;
 }
 
+.books  {
+    background-color: #ededed; 
+}
+
 .books_nav {
     padding: 70px 0;
-    margin: 0 -5px ;
+    
     color: #ff451a;
     font-size: 24px;
     font-family: 'Conv_Proxima Nova Extrabold';
@@ -420,6 +424,7 @@ a{
 }
 
 .books_nav a {
+    width: 200px;
     padding-right: 40px;
     text-decoration: none;
     color: black;
@@ -428,3 +433,69 @@ a{
 .books_nav a:active {
     color: #ff451a;
 }
+
+
+.books .nav_bar ul li  {
+    color:  black;
+}
+.books .nav_bar ul li:hover {
+    color: #ff451a;
+}
+
+.books_h {
+    position: absolute;
+    width: 416px;
+    margin: 270px 0 0 -150px;
+    font-weight: 800;
+    font-size: 60px;
+    font-family: 'Conv_Proxima Nova Extrabold';
+    font-weight: bold;
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    float: left;
+}
+
+.books_wrap {
+    margin: 80px 0 0 212px;
+   width: 1078px;
+
+}
+
+.books_item {
+    display: inline-block;
+    border-left: 1px solid #c6c6c6;
+    margin: 40px 0px;
+    width: 350px;
+}
+
+
+
+.books_image {
+    display: block;
+    background-image: url(../img/book_3.png);
+    width: 230px;
+    height: 328px;
+    margin: 0 45px;
+    -webkit-box-shadow: 4px 6px 30px -4px rgba(0,0,0,1);
+    -moz-box-shadow: 4px 6px 30px -4px rgba(0,0,0,1);
+    box-shadow: 4px 6px 30px -4px rgba(0,0,0,1);
+}
+
+
+.books_text {
+    font-family: 'Conv_Proxima Nova Regular';
+    color: black;
+    font-size: 12px;
+    margin: 26px 26px;
+    line-height: 1.5;
+}
+
+.books_title {
+    color: #ff451a;
+    font-size: 24px;
+    font-family: 'Conv_Proxima Nova Extrabold';
+    font-weight: bold;
+    margin: -10px 26px;
+}
+
