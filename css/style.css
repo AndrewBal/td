@@ -189,7 +189,7 @@ a{
 
 } 
 
-.nav_bar ul li {
+.nav_bar ul a {
     font-family: 'Conv_Proxima Nova Regular';
     display: block;
     color: white;
@@ -199,9 +199,13 @@ a{
     transition: all .3s;
 }
 
-.nav_bar ul li:hover {
+.nav_bar ul a:hover {
     color: black;
     cursor: pointer;
+}
+
+.nav_bar ul li {
+     list-style-type: none;
 }
 
 .line_0 {
@@ -340,12 +344,18 @@ a{
     background-color: #ededed;
 }
 
-.news_page .nav_bar ul li  {
+.news_page .nav_bar ul a  {
+    font-family: 'Conv_Proxima Nova Regular';
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 5px;
+    transition: all .3s;
     color:  black;
 }
-.news_page .nav_bar ul li:hover {
+.news_page .nav_bar ul a:hover {
     color: #ff451a;
-
+    cursor: pointer;
 }
 
 .news_h {
@@ -435,11 +445,18 @@ a{
 }
 
 
-.books .nav_bar ul li  {
+.books .nav_bar ul a  {
+     font-family: 'Conv_Proxima Nova Regular';
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 5px;
+    transition: all .3s;
     color:  black;
 }
-.books .nav_bar ul li:hover {
+.books .nav_bar ul a:hover {
     color: #ff451a;
+    cursor: pointer;
 }
 
 .books_h {
@@ -497,5 +514,85 @@ a{
     font-family: 'Conv_Proxima Nova Extrabold';
     font-weight: bold;
     margin: -10px 26px;
+}
+.recommend_wrap {
+    margin-top: 50px;
+    padding-left: 155px;
+}
+.recommendations {
+    background-color: #ededed; 
+}
+
+
+
+.recommendations .nav_bar ul a {
+    
+    color: black;
+    transition: all .3s;
+}
+
+.recommendations .nav_bar ul a:hover {
+    color: #ff451a;
+}
+
+.recommendations_h {
+    width: 200px;
+    margin: 265px -240px 0 0px;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: 'Conv_Proxima Nova Extrabold';
+    font-weight: 900;
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    float: right;
+    color: #ff451a;
+}
+
+.recommend_item {
+    vertical-align: top;
+    position: relative;
+    margin: 105px -50px 0 118px ;
+    display: inline-block;
+    width: 268px;
+    height: 381px;
+    background-color: white;
+    -webkit-box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
+    -moz-box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
+    box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
+}
+
+.recommend_image {
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-image: url(../img/recommend_image1.png);
+    margin: 60px 55px;
+}
+
+.recommend_line {
+    margin: -115px 40px;
+    width: 57px;
+    height: 4px;
+    background-color: #0066ff;
+}
+
+.recommend_name {
+    margin: 140px 0 0 35px; 
+    color: #666666;
+    font-family: 'Conv_Proxima Nova Regular';
+}
+
+.recommend_text {
+    font-family: 'Conv_Proxima Nova Extrabold';
+    width: 150px;
+    margin: 10px 35px;
+    padding: 0 0 50px 0; 
+}
+
+.recommendations .slide_down_btn_2 {
+     margin: 125px 0 0 670px;
+     cursor: pointer;
+     padding-bottom: 150px;
 }
 
