@@ -360,9 +360,9 @@ a{
     cursor: pointer;
 }
 
-.news_h {
+.news_h2 {
     width: 200px;
-    margin: 280px 0 0 0px;
+    margin: 280px 0 0 15px;
     font-weight: 800;
     font-size: 60px;
     font-family: 'Conv_Proxima Nova Extrabold';
@@ -461,10 +461,10 @@ a{
     cursor: pointer;
 }
 
-.books_h {
+.books_h2 {
     position: absolute;
     width: 416px;
-    margin: 270px 0 0 -150px;
+    margin: 270px 0 0 -98px;
     font-weight: 800;
     font-size: 60px;
     font-family: 'Conv_Proxima Nova Extrabold';
@@ -476,7 +476,7 @@ a{
 }
 
 .books_wrap {
-    margin: 80px 0 0 212px;
+    margin: 70px 0 0 212px;
    width: 1078px;
 
 }
@@ -528,7 +528,6 @@ a{
 
 
 .recommendations .nav_bar ul a {
-    
     color: black;
     transition: all .3s;
 }
@@ -537,7 +536,7 @@ a{
     color: #ff451a;
 }
 
-.recommendations_h {
+.recommendations_h2 {
     width: 200px;
     margin: 265px -240px 0 0px;
     font-weight: 800;
@@ -598,3 +597,61 @@ a{
      padding-bottom: 50px;
 }
 
+
+.buy {
+    background-color: #ededed; 
+}
+
+.buy .nav_bar ul a {
+    color: black;
+    transition: all .3s;
+}
+
+.buy .nav_bar ul a:hover {
+    color: #ff451a;
+}
+
+.buy_h2 {
+    position: absolute;
+    width: 416px;
+    margin: 225px 0 0 -105px;
+    font-weight: 800;
+    font-size: 60px;
+    font-family: 'Conv_Proxima Nova Extrabold';
+    font-weight: bold;
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    float: left;
+}
+
+.buy_h3 {
+
+    width: 300px;
+    margin: 100px 0 0 195px;
+    font-weight: 800;
+    font-size: 40px;
+    font-family: 'Conv_Proxima Nova Extrabold';
+    font-weight: 900;
+    float: left;
+    color: #ff451a;
+}
+
+
+
+.city_select {
+    display: block;
+    padding:  10px 50px 10px 0;
+    background-color: #ededed; 
+    border-bottom:  1px solid #878787;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+}
+        
+
+.map {
+    display: block;
+    padding: 180px 0 0 196px;
+}
