@@ -252,7 +252,9 @@ a{
     width: 770px;
     height: 425px;
     background-color: white;
-    box-shadow: 5px 10px 50px #60453f;
+    -webkit-box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
+    -moz-box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
+    box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
 }
 
 .main_block h1 {
@@ -398,9 +400,9 @@ a{
     width: 230px;
     height: 230px;
     margin: 0 45px;
-    -webkit-box-shadow: 4px 6px 30px -4px rgba(0,0,0,1);
-    -moz-box-shadow: 4px 6px 30px -4px rgba(0,0,0,1);
-    box-shadow: 4px 6px 30px -4px rgba(0,0,0,1);
+    -webkit-box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
+    -moz-box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
+    box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
 }
 
 
@@ -494,9 +496,9 @@ a{
     width: 230px;
     height: 328px;
     margin: 0 45px;
-    -webkit-box-shadow: 4px 6px 30px -4px rgba(0,0,0,1);
-    -moz-box-shadow: 4px 6px 30px -4px rgba(0,0,0,1);
-    box-shadow: 4px 6px 30px -4px rgba(0,0,0,1);
+    -webkit-box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
+    -moz-box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
+    box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
 }
 
 
@@ -591,8 +593,8 @@ a{
 }
 
 .recommendations .slide_down_btn_2 {
-     margin: 125px 0 0 670px;
+     margin: 70px 0 0 670px;
      cursor: pointer;
-     padding-bottom: 150px;
+     padding-bottom: 50px;
 }
 
