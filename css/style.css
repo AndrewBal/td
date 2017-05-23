@@ -626,7 +626,7 @@ a{
 }
 
 .buy_h3 {
-
+    
     width: 300px;
     margin: 100px 0 0 195px;
     font-weight: 800;
@@ -639,17 +639,50 @@ a{
 
 
 
-.city_select {
+#city_select {
+    margin: 100px 13px 1px 968px;
+    
+    position: absolute;
     display: block;
-    padding:  10px 50px 10px 0;
+    padding:  13px 163px 13px 0px;
     background-color: #ededed; 
     border-bottom:  1px solid #878787;
     border-left: none;
     border-right: none;
     border-top: none;
     outline: none;
+    list-style-type: none;
+    z-index: 2;
 }
-        
+
+#city_select > li > ul {
+    display: none;
+    list-style-type: none;
+    
+}
+#city_select > li {
+    font-family: 'Conv_Proxima Nova Regular';
+    color: #666666;
+    cursor: pointer;
+}
+
+#city_select > li > ul > li {
+    font-family: 'Conv_Proxima Nova Regular';
+    color: #666666;
+   
+    padding-top: 15px;
+    margin-left: -20px;
+}
+.bottom_arrow  {
+    background-image: url(../img/bottom_arrow.png);
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    z-index: 3;
+    position: absolute;
+    margin: 117px 0px 0 1235px;
+    cursor: pointer;
+}
 
 .map {
     display: block;
