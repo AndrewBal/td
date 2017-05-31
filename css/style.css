@@ -626,7 +626,6 @@ a{
 }
 
 .buy_h3 {
-    
     width: 300px;
     margin: 100px 0 0 195px;
     font-weight: 800;
@@ -641,7 +640,6 @@ a{
 
 #city_select {
     margin: 100px 13px 1px 968px;
-    
     position: absolute;
     display: block;
     padding:  13px 163px 13px 0px;
@@ -669,7 +667,6 @@ a{
 #city_select > li > ul > li {
     font-family: 'Conv_Proxima Nova Regular';
     color: #666666;
-   
     padding-top: 15px;
     margin-left: -20px;
 }
@@ -688,3 +685,26 @@ a{
     display: block;
     padding: 180px 0 0 196px;
 }
+
+.buy_h3_1 {
+   width: 300px;
+    margin: 175px 0 0 195px;
+    font-weight: 800;
+    font-size: 40px;
+    font-family: 'Conv_Proxima Nova Extrabold';
+    font-weight: 900;
+    float: left;
+    color: #ff451a; 
+}
+
+.buy_slider {
+    margin: 300px 0 0 195px; 
+}
+
+.buy_image {
+    display: inline-block;
+    width: 117px;
+    height: 117px;
+    background-image: url(../img/buy_image.png);
+}
+
