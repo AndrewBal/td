@@ -170,7 +170,6 @@ a {
 }
 
 .logo {
-    
     padding-top: 50px;
 }
 
@@ -244,7 +243,7 @@ header {
 
 .content_block {
     margin: 20px 0 0 -120px;
-    padding: 50px 0 170px  50px;
+    padding: 50px 0 170px 50px;
     height: 580px;
 }
 
@@ -301,16 +300,15 @@ header {
 
 .slide_down_btn {
     display: block;
-    margin: -75px 0 0 480px ;
+    margin: -75px 0 0 480px;
     cursor: pointer;
-    padding: 0 0 75px 0; 
+    padding: 0 0 75px 0;
 }
 
 .switcher {
     display: block;
-    margin: -195px 0 0 -125px ;
-    padding:    0 0 50px 0;
-    
+    margin: -195px 0 0 -125px;
+    padding: 0 0 50px 0;
 }
 
 .dot_0 {
@@ -399,7 +397,7 @@ header {
 .news_item {
     display: inline-block;
     border-left: 1px solid #c6c6c6;
-    margin: 40px  0 0 -25px;
+    margin: 40px 0 0 -25px;
     width: 340px;
 }
 
@@ -471,7 +469,7 @@ header {
 .books_h2 {
     position: absolute;
     width: 416px;
-    margin: 210px 0 0 -220px;
+    margin: 210px 0 0 -165px;
     font-weight: 800;
     font-size: 60px;
     font-family: 'Conv_Proxima Nova Extrabold';
@@ -522,7 +520,7 @@ header {
 }
 
 .recommend_wrap {
-    margin: 50px 0 0 -180px ;
+    margin: 50px 0 0 -180px;
     padding-left: 206px;
 }
 
@@ -616,7 +614,7 @@ header {
 .buy_h2 {
     position: absolute;
     width: 416px;
-    margin: 225px 0 0 -220px;
+    margin: 225px 0 0 -165px;
     font-weight: 800;
     font-size: 60px;
     font-family: 'Conv_Proxima Nova Extrabold';
@@ -709,11 +707,8 @@ header {
     height: 117px;
     background-image: url(../img/buy_image.png);
     background-repeat: no-repeat;
-
     position: relative;
     margin: 105px -50px 0 118px;
-    
- 
 }
 
 .parents {
@@ -742,9 +737,11 @@ header {
     -moz-transform: rotate(270deg);
     float: left;
 }
+
 .parents_wrap {
     padding: 0 0 80px 0;
-    }
+}
+
 .parents_p {
     padding: 3px 0 5px 0;
     padding-left: 50px;
@@ -756,12 +753,11 @@ header {
     margin: 95px 52px 13px 189px;
 }
 
-
 .parents_item {
     padding: 60px 0 70px 80px;
     margin: 60px 0 0 180px;
     background-color: #ffffff;
-     -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
 }
@@ -779,7 +775,7 @@ header {
     font-family: 'Conv_Proxima Nova Regular';
     color: #666666;
     font-size: 16px;
-    margin: 20px 70px 0 182px ;
+    margin: 20px 70px 0 182px;
     line-height: 22px;
 }
 
@@ -809,9 +805,11 @@ header {
     -moz-transform: rotate(270deg);
     float: left;
 }
+
 .school_wra {
     padding: 0 0 80px 0;
-    }
+}
+
 .school_p {
     padding: 3px 0 5px 0;
     padding-left: 50px;
@@ -823,12 +821,11 @@ header {
     margin: 95px 52px 13px 189px;
 }
 
-
 .school_item {
     padding: 60px 0 70px 80px;
     margin: 60px 0 0 180px;
     background-color: #ffffff;
-     -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
 }
@@ -846,10 +843,9 @@ header {
     font-family: 'Conv_Proxima Nova Regular';
     color: #666666;
     font-size: 16px;
-    margin: 20px 70px 0 182px ;
+    margin: 20px 70px 0 182px;
     line-height: 22px;
 }
-
 
 .partners {
     background-color: #ededed;
@@ -863,6 +859,7 @@ header {
 .partners .nav_bar ul a:hover {
     color: #ff451a;
 }
+
 .partners_h2 {
     position: absolute;
     width: 416px;
@@ -876,9 +873,11 @@ header {
     -moz-transform: rotate(270deg);
     float: left;
 }
+
 .partners_wrap {
     padding: 0 0 80px 0;
-    }
+}
+
 .partners_p {
     padding: 3px 0 5px 0;
     padding-left: 50px;
@@ -890,12 +889,11 @@ header {
     margin: 95px 52px 13px 189px;
 }
 
-
 .partners_item {
     padding: 60px 0 70px 80px;
     margin: 60px 0 0 180px;
     background-color: #ffffff;
-     -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
 }
@@ -913,11 +911,9 @@ header {
     font-family: 'Conv_Proxima Nova Regular';
     color: #666666;
     font-size: 16px;
-    margin: 20px 70px 0 182px ;
+    margin: 20px 70px 0 182px;
     line-height: 22px;
 }
-
-
 
 .advertiser {
     background-color: #ededed;
@@ -945,9 +941,11 @@ header {
     -moz-transform: rotate(270deg);
     float: left;
 }
+
 .advertiser_wra {
     padding: 0 0 80px 0;
-    }
+}
+
 .advertiser_p {
     padding: 3px 0 5px 0;
     padding-left: 50px;
@@ -959,12 +957,11 @@ header {
     margin: 95px 52px 13px 189px;
 }
 
-
 .advertiser_item {
     padding: 60px 0 70px 80px;
     margin: 60px 0 0 180px;
     background-color: #ffffff;
-     -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
 }
@@ -982,7 +979,7 @@ header {
     font-family: 'Conv_Proxima Nova Regular';
     color: #666666;
     font-size: 16px;
-    margin: 20px 70px 0 182px ;
+    margin: 20px 70px 0 182px;
     line-height: 22px;
 }
 
@@ -1002,7 +999,7 @@ header {
 .contacts_h2 {
     position: absolute;
     width: 416px;
-    margin: 250px 0 0 -170px;
+    margin: 205px 0 0 -170px;
     font-weight: 800;
     font-size: 60px;
     font-family: 'Conv_Proxima Nova Extrabold';
@@ -1013,30 +1010,36 @@ header {
     float: left;
 }
 
+.contacts_wrap {
+    padding: 0 0 80px 0;
+    margin: -40px 0 0 0;
+}
+
 .contact_1 {
-    border-left: 2px solid  #d5d5d5;
-    margin: 160px 0 0 140px;  
-    position: absolute;
+    border-left: 2px solid #d5d5d5;
+    margin: 160px 0 0 140px;
+    /* position: absolute; */
     padding: 5px 0 5px 25px;
 }
 
 .contact_2 {
-    border-left: 2px solid  #d5d5d5;
-    margin: 160px 0 0 794px; 
+    border-left: 2px solid #d5d5d5;
+    margin: -100px 0 0 710px;
     padding: 5px 0 5px 25px;
 }
 
 .contact_1 h3 {
-    font-size:  16px;  
+    font-size: 16px;
     font-family: 'Conv_Proxima Nova Regular';
     color: #717171;
     padding: 0 0 25px 0;
 }
+
 .contact_1 p {
-     font-size: 18px;
+    font-size: 18px;
     font-family: 'Conv_Proxima Nova Regular';
     line-height: 23px;
-} 
+}
 
 .contact_2 h3 {
     font-size: 16px;
@@ -1044,8 +1047,101 @@ header {
     color: #717171;
     padding: 0 0 25px 0;
 }
+
 .contact_2 p {
     font-family: 'Conv_Proxima Nova Extrabold';
     font-weight: bold;
     font-size: 36px;
-} 
+}
+
+.form {
+    background-color: #ff451a;
+    height: 490px;
+    width: 985px;
+    margin: 55px 0 0 140px;
+    outline: none;
+    -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+    box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+}
+
+input {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: #797979;
+    font-family: 'Conv_Proxima Nova Regular';
+    font-size: 14px;
+}
+
+::-moz-placeholder {
+    color: #797979;
+    font-family: 'Conv_Proxima Nova Regular';
+    font-size: 14px;
+}
+
+
+/* Firefox 19+ */
+
+:-moz-placeholder {
+    color: #797979;
+    font-family: 'Conv_Proxima Nova Regular';
+    font-size: 14px;
+}
+
+
+/* Firefox 18- */
+
+:-ms-input-placeholder {
+    color: #797979;
+    font-family: 'Conv_Proxima Nova Regular';
+    font-size: 14px;
+}
+
+.form form {
+    padding-top: 20px;
+}
+
+.input_name,
+.input_tel,
+.input_city,
+.input_mail {
+    width: 380px;
+    display: block;
+    padding: 12px 7px 12px 20px;
+    border: none;
+    margin: 30px 0 0 45px;
+    box-shadow: 0px 0px 5px -1px #000000 inset;
+    letter-spacing: 1px;
+}
+
+.input_message {
+    font-family: 'Conv_Proxima Nova Regular';
+    width: 405px;
+    display: block;
+    padding: 12px 7px 205px 20px;
+    border: none;
+    margin: -247px 45px 0 56px;
+    box-shadow: 0px 0px 5px -1px #000000 inset;
+    letter-spacing: 1px;
+    float: right;
+    overflow: hidden;
+    max-height: 200px;
+    resize: none;
+    outline: none;
+}
+
+.input_btn {
+    outline: none;
+    font-family: 'Conv_Proxima Nova Regular';
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    background-color: #1b1c21;
+    padding: 19px 60px 19px 60px;
+    margin: 70px 0 0 350px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 8px;
+}
