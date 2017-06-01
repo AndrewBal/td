@@ -133,16 +133,16 @@ q:after {
     content: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
-.clear{
+
+.clear {
     clear: both;
 }
 
+
 /* end reset browser styles */
-
-
 
 @font-face {
     font-family: 'Conv_Proxima Nova Regular';
@@ -160,34 +160,36 @@ a{
     font-style: normal;
 }
 
-
-
 .main_page {
     background-color: #ff451a;
 }
+
 .wrapper {
-    width: 1120px;
+    max-width: 1120px;
+    margin: 0 auto;
 }
 
 .logo {
-    margin-left: 75px;
+    
     padding-top: 50px;
 }
 
- .nav_bar {
+header {
+    margin: 0 110px 0 0;
+}
+
+.nav_bar {
     display: inline-block;
     list-style: none;
     float: right;
     margin: -70px -135px;
-    
 }
 
 .nav_bar ul {
     display: inline-block;
     vertical-align: top;
     padding-left: 90px;
-
-} 
+}
 
 .nav_bar ul a {
     font-family: 'Conv_Proxima Nova Regular';
@@ -205,70 +207,77 @@ a{
 }
 
 .nav_bar ul li {
-     list-style-type: none;
+    list-style-type: none;
 }
 
 .line_0 {
-    left: 460px;
-    top: 71px;
+    margin: 6px 0 0 -45px;
     position: absolute;
-    width: 30px;
+    width: 33px;
     height: 4px;
     background-color: black;
 }
 
 .line_1 {
-    left: 665px;
-    top: 71px;
+    margin: 6px 0 0 -45px;
     position: absolute;
-    width: 30px;
+    width: 33px;
     height: 4px;
     background-color: black;
 }
 
 .line_2 {
-    left: 885px;
-    top: 71px;
+    margin: 6px 0 0 -45px;
     position: absolute;
-    width: 30px;
+    width: 33px;
     height: 4px;
     background-color: black;
 }
 
 .line_3 {
-    left: 1130px;
-    top: 71px;
+    margin: 6px 0 0 -45px;
     position: absolute;
-    width: 30px;
+    width: 33px;
     height: 4px;
     background-color: black;
 }
+
 .content_block {
-    padding: 50px 50px;
-    height: 580px;  
+    margin: 20px 0 0 -120px;
+    padding: 50px 0 170px  50px;
+    height: 580px;
 }
+
+.tablet {
+    display: block;
+    position: absolute;
+    margin: 150px 0 0 809px;
+}
+
 .main_block {
+    display: block;
+    position: absolute;
+    z-index: 3 !important;
     margin: 150px 140px;
     width: 770px;
     height: 425px;
     background-color: white;
-    -webkit-box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
-    -moz-box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
-    box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
+    -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+    box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
 }
 
 .main_block h1 {
-     font-family: 'Conv_Proxima Nova Extrabold';
-     font-size: 55px;
-     font-weight: bold;
-     text-transform: uppercase;
-     color: #1c1d23;
-     padding: 55px 55px; 
+    font-family: 'Conv_Proxima Nova Extrabold';
+    font-size: 55px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1c1d23;
+    padding: 55px 55px;
 }
 
 .line_4 {
-    left: 253px;
-    top: 599px;
+    margin: -310px 0 0 202px;
     position: absolute;
     width: 57px;
     height: 4px;
@@ -279,30 +288,29 @@ a{
     margin: -45px 35px;
     color: #7a7a7a;
     font-family: 'Conv_Proxima Nova Regular';
-    padding: 25px 25px; 
+    padding: 25px 25px;
     font-size: 19px;
 }
 
-  .content_block img.man {
+.man {
+    display: block;
     position: absolute;
-    margin: -680px 660px;
-    
-}
-
-.content_block img.tablet {
-    position: absolute;
-    margin: -567px 813px;
-    z-index: -1;
+    margin: 50px 0px 0px 655px;
+    z-index: 4;
 }
 
 .slide_down_btn {
-    margin: 0 670px;
+    display: block;
+    margin: -75px 0 0 480px ;
     cursor: pointer;
+    padding: 0 0 75px 0; 
 }
 
 .switcher {
-    margin: -100px 0;
-    padding-bottom: 145px ;
+    display: block;
+    margin: -195px 0 0 -125px ;
+    padding:    0 0 50px 0;
+    
 }
 
 .dot_0 {
@@ -312,6 +320,7 @@ a{
     height: 10px;
     border-radius: 50%;
 }
+
 .dot_1 {
     margin: 10px 1250px;
     background-color: #cc3715;
@@ -319,6 +328,7 @@ a{
     height: 10px;
     border-radius: 50%;
 }
+
 .dot_2 {
     margin: 10px 1250px;
     background-color: #cc3715;
@@ -326,6 +336,7 @@ a{
     height: 10px;
     border-radius: 50%;
 }
+
 .dot_3 {
     margin: 10px 1250px;
     background-color: #cc3715;
@@ -333,6 +344,7 @@ a{
     height: 10px;
     border-radius: 50%;
 }
+
 .dot_4 {
     margin: 10px 1250px;
     background-color: #cc3715;
@@ -341,20 +353,20 @@ a{
     border-radius: 50%;
 }
 
-
 .news_page {
     background-color: #ededed;
 }
 
-.news_page .nav_bar ul a  {
+.news_page .nav_bar ul a {
     font-family: 'Conv_Proxima Nova Regular';
     display: block;
     font-weight: bold;
     font-size: 16px;
     padding-bottom: 5px;
     transition: all .3s;
-    color:  black;
+    color: black;
 }
+
 .news_page .nav_bar ul a:hover {
     color: #ff451a;
     cursor: pointer;
@@ -362,7 +374,7 @@ a{
 
 .news_h2 {
     width: 200px;
-    margin: 280px 0 0 15px;
+    margin: 200px 0 0 -200px;
     font-weight: 800;
     font-size: 60px;
     font-family: 'Conv_Proxima Nova Extrabold';
@@ -380,19 +392,16 @@ a{
 }
 
 .news_wrap {
-    margin: 80px 0 0 220px;
- /*   width: 960px;*/
-
+    margin: 69px 0 0 161px;
+    /*   width: 960px;*/
 }
 
 .news_item {
     display: inline-block;
     border-left: 1px solid #c6c6c6;
-    margin: 40px 0px;
-    width: 350px;
+    margin: 40px  0 0 -25px;
+    width: 340px;
 }
-
-
 
 .news_image {
     display: block;
@@ -400,11 +409,10 @@ a{
     width: 230px;
     height: 230px;
     margin: 0 45px;
-    -webkit-box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
-    -moz-box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
-    box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
+    -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+    box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
 }
-
 
 .news_text {
     font-family: 'Conv_Proxima Nova Regular';
@@ -422,13 +430,12 @@ a{
     margin: -10px 26px;
 }
 
-.books  {
-    background-color: #ededed; 
+.books {
+    background-color: #ededed;
 }
 
 .books_nav {
     padding: 70px 0;
-    
     color: #ff451a;
     font-size: 24px;
     font-family: 'Conv_Proxima Nova Extrabold';
@@ -446,16 +453,16 @@ a{
     color: #ff451a;
 }
 
-
-.books .nav_bar ul a  {
-     font-family: 'Conv_Proxima Nova Regular';
+.books .nav_bar ul a {
+    font-family: 'Conv_Proxima Nova Regular';
     display: block;
     font-weight: bold;
     font-size: 16px;
     padding-bottom: 5px;
     transition: all .3s;
-    color:  black;
+    color: black;
 }
+
 .books .nav_bar ul a:hover {
     color: #ff451a;
     cursor: pointer;
@@ -464,7 +471,7 @@ a{
 .books_h2 {
     position: absolute;
     width: 416px;
-    margin: 270px 0 0 -98px;
+    margin: 270px 0 0 -195px;
     font-weight: 800;
     font-size: 60px;
     font-family: 'Conv_Proxima Nova Extrabold';
@@ -476,9 +483,8 @@ a{
 }
 
 .books_wrap {
-    margin: 70px 0 0 212px;
-   width: 1078px;
-
+    margin: 70px 0 0 130px;
+    width: 1078px;
 }
 
 .books_item {
@@ -488,19 +494,16 @@ a{
     width: 350px;
 }
 
-
-
 .books_image {
     display: block;
     background-image: url(../img/book_3.png);
     width: 230px;
     height: 328px;
     margin: 0 45px;
-    -webkit-box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
-    -moz-box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
-    box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
+    -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+    box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
 }
-
 
 .books_text {
     font-family: 'Conv_Proxima Nova Regular';
@@ -517,15 +520,15 @@ a{
     font-weight: bold;
     margin: -10px 26px;
 }
+
 .recommend_wrap {
-    margin-top: 50px;
-    padding-left: 155px;
+    margin: 50px 0 0 -180px ;
+    padding-left: 206px;
 }
+
 .recommendations {
-    background-color: #ededed; 
+    background-color: #ededed;
 }
-
-
 
 .recommendations .nav_bar ul a {
     color: black;
@@ -538,7 +541,7 @@ a{
 
 .recommendations_h2 {
     width: 200px;
-    margin: 265px -240px 0 0px;
+    margin: 265px -90px 0 0px;
     font-weight: 800;
     font-size: 30px;
     font-family: 'Conv_Proxima Nova Extrabold';
@@ -553,14 +556,14 @@ a{
 .recommend_item {
     vertical-align: top;
     position: relative;
-    margin: 105px -50px 0 118px ;
+    margin: 105px -50px 0 118px;
     display: inline-block;
     width: 268px;
     height: 381px;
     background-color: white;
-    -webkit-box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
-    -moz-box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
-    box-shadow: 4px 6px 15px -4px rgba(0,0,0,1);
+    -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+    box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
 }
 
 .recommend_image {
@@ -579,7 +582,7 @@ a{
 }
 
 .recommend_name {
-    margin: 140px 0 0 35px; 
+    margin: 140px 0 0 35px;
     color: #666666;
     font-family: 'Conv_Proxima Nova Regular';
 }
@@ -588,18 +591,17 @@ a{
     font-family: 'Conv_Proxima Nova Extrabold';
     width: 150px;
     margin: 10px 35px;
-    padding: 0 0 50px 0; 
+    padding: 0 0 50px 0;
 }
 
 .recommendations .slide_down_btn_2 {
-     margin: 70px 0 0 670px;
-     cursor: pointer;
-     padding-bottom: 50px;
+    margin: 70px 0 0 540px;
+    cursor: pointer;
+    padding-bottom: 50px;
 }
 
-
 .buy {
-    background-color: #ededed; 
+    background-color: #ededed;
 }
 
 .buy .nav_bar ul a {
@@ -614,7 +616,7 @@ a{
 .buy_h2 {
     position: absolute;
     width: 416px;
-    margin: 225px 0 0 -105px;
+    margin: 225px 0 0 -190px;
     font-weight: 800;
     font-size: 60px;
     font-family: 'Conv_Proxima Nova Extrabold';
@@ -627,7 +629,7 @@ a{
 
 .buy_h3 {
     width: 300px;
-    margin: 100px 0 0 195px;
+    margin: 85px 0 0 100px;
     font-weight: 800;
     font-size: 40px;
     font-family: 'Conv_Proxima Nova Extrabold';
@@ -636,15 +638,13 @@ a{
     color: #ff451a;
 }
 
-
-
 #city_select {
-    margin: 100px 13px 1px 968px;
+    margin: 100px 13px 1px 858px;
     position: absolute;
     display: block;
-    padding:  13px 163px 13px 0px;
-    background-color: #ededed; 
-    border-bottom:  1px solid #878787;
+    padding: 13px 163px 13px 0px;
+    background-color: #ededed;
+    border-bottom: 1px solid #878787;
     border-left: none;
     border-right: none;
     border-top: none;
@@ -656,8 +656,8 @@ a{
 #city_select > li > ul {
     display: none;
     list-style-type: none;
-    
 }
+
 #city_select > li {
     font-family: 'Conv_Proxima Nova Regular';
     color: #666666;
@@ -670,35 +670,36 @@ a{
     padding-top: 15px;
     margin-left: -20px;
 }
-.bottom_arrow  {
+
+.bottom_arrow {
     background-image: url(../img/bottom_arrow.png);
     width: 100px;
     height: 100px;
     background-repeat: no-repeat;
     z-index: 3;
     position: absolute;
-    margin: 117px 0px 0 1235px;
+    margin: 117px 0px 0 1115px;
     cursor: pointer;
 }
 
 .map {
     display: block;
-    padding: 180px 0 0 196px;
+    padding: 180px 0 0 100px;
 }
 
 .buy_h3_1 {
-   width: 300px;
-    margin: 175px 0 0 195px;
+    width: 300px;
+    margin: 100px 0 0 97px;
     font-weight: 800;
     font-size: 40px;
     font-family: 'Conv_Proxima Nova Extrabold';
     font-weight: 900;
     float: left;
-    color: #ff451a; 
+    color: #ff451a;
 }
 
 .buy_slider {
-    margin: 300px 0 0 195px; 
+    margin: 300px 0 0 195px;
 }
 
 .buy_image {
@@ -708,3 +709,35 @@ a{
     background-image: url(../img/buy_image.png);
 }
 
+.parents {
+    background-color: #ededed;
+}
+
+.parents .nav_bar ul a {
+    color: black;
+    transition: all .3s;
+}
+
+.parents .nav_bar ul a:hover {
+    color: #ff451a;
+}
+
+.parents_h2 {
+    position: absolute;
+    width: 416px;
+    margin: 225px 0 0 -105px;
+    font-weight: 800;
+    font-size: 60px;
+    font-family: 'Conv_Proxima Nova Extrabold';
+    font-weight: bold;
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    float: left;
+}
+
+.parents_p {
+    font-size: 24px;
+    font-family: 'Conv_Proxima Nova Regular';
+    color: #666666;
+}
