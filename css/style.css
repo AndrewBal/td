@@ -592,6 +592,18 @@ header {
     padding: 0 0 50px 0;
 }
 
+.recommend_wrap .slick-list {
+    padding-bottom: 15px;
+}
+
+
+.recommend_wrap .slick-next {
+   right: 85px;
+}
+
+.recommend_wrap .slick-prev {
+   left: 130px;
+}
 .recommendations .slide_down_btn_2 {
     margin: 70px 0 0 540px;
     cursor: pointer;
@@ -697,8 +709,18 @@ header {
 }
 
 .buy_slider {
-    margin: 215px 0 0 215px;
+    margin: 150px 0 0 100px;
     padding: 0 0 50px 0;
+    width: 871px;
+}
+
+.buy_slider .slick-initialized .slick-slide {
+    height: 200px;
+}
+
+
+ .buy_slider .slick-prev {
+    left: -44px;
 }
 
 .buy_image {
@@ -806,7 +828,7 @@ header {
     float: left;
 }
 
-.school_wra {
+.school_wrap {
     padding: 0 0 80px 0;
 }
 
@@ -942,7 +964,7 @@ header {
     float: left;
 }
 
-.advertiser_wra {
+.advertiser_wrap {
     padding: 0 0 80px 0;
 }
 
@@ -1145,3 +1167,6 @@ input {
     cursor: pointer;
     letter-spacing: 8px;
 }
+
+
+

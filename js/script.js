@@ -1,4 +1,11 @@
 $(document).ready(function() {
+    $('.buy_slider').slick({
+        centerPadding: '250px',
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        variableWidth: true
+    });
+
     $('.recommend_wrap').slick({
         centerPadding: '250px',
         slidesToShow: 3,
@@ -15,10 +22,6 @@ $(document).ready(function() {
         event.stopPropagation();
     });
 
-    $('.buy_slider').slick({
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 3
-    });
+   
 
 });
