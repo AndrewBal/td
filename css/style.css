@@ -165,7 +165,7 @@ a {
 }
 
 .wrapper {
-    max-width: 1120px;
+    max-width: 1130px;
     margin: 0 auto;
 }
 
@@ -552,6 +552,7 @@ header {
 }
 
 .recommend_item {
+    outline: none;
     vertical-align: top;
     position: relative;
     margin: 105px -50px 0 118px;
@@ -595,6 +596,8 @@ header {
 .recommend_wrap .slick-list {
     padding-bottom: 15px;
 }
+
+
 
 .recommend_wrap.slick-initialized.slick-slider > img:nth-child(3) {
     margin: -308px 2px 215px 996px;
@@ -652,7 +655,8 @@ header {
 }
 
 #city_select {
-    margin: 100px 13px 1px 858px;
+    width: 153px;
+    margin: 100px 13px 1px 844px;
     position: absolute;
     display: block;
     padding: 13px 163px 13px 0px;
@@ -675,6 +679,7 @@ header {
     font-family: 'Conv_Proxima Nova Regular';
     color: #666666;
     cursor: pointer;
+    padding-left: 15px;
 }
 
 #city_select > li > ul > li {
@@ -682,6 +687,7 @@ header {
     color: #666666;
     padding-top: 15px;
     margin-left: -20px;
+    
 }
 
 .bottom_arrow {
@@ -691,7 +697,7 @@ header {
     background-repeat: no-repeat;
     z-index: 3;
     position: absolute;
-    margin: 117px 0px 0 1115px;
+    margin: 117px 0px 0 1132px;
     cursor: pointer;
 }
 
@@ -757,7 +763,7 @@ header {
 }
 
 .buy_slider.slick-initialized.slick-slider > img:nth-child(3) {
-   margin: -68px 0px 62px 885px;
+   margin: -68px 0px 62px 888px;
    cursor: pointer;
 }
 
@@ -975,20 +981,20 @@ header {
     line-height: 22px;
 }
 
-.advertiser {
+.for_advrts {
     background-color: #ededed;
 }
 
-.advertiser .nav_bar ul a {
+.for_advrts .nav_bar ul a {
     color: black;
     transition: all .3s;
 }
 
-.advertiser .nav_bar ul a:hover {
+.for_advrts .nav_bar ul a:hover {
     color: #ff451a;
 }
 
-.advertiser_h2 {
+.for_advrts_h2 {
     position: absolute;
     width: 416px;
     margin: 435px 0 0 -165px;
@@ -1002,11 +1008,11 @@ header {
     float: left;
 }
 
-.advertiser_wrap {
+.for_advrts_wrap {
     padding: 0 0 80px 0;
 }
 
-.advertiser_p {
+.for_advrts_p {
     padding: 3px 0 5px 0;
     padding-left: 50px;
     width: 710px;
@@ -1017,7 +1023,7 @@ header {
     margin: 95px 52px 13px 189px;
 }
 
-.advertiser_item {
+.for_advrts_item {
     padding: 60px 0 70px 80px;
     margin: 60px 0 0 180px;
     background-color: #ffffff;
@@ -1026,7 +1032,7 @@ header {
     box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
 }
 
-.advertiser_item h2 {
+.for_advrts_item h2 {
     position: absolute;
     font-family: 'Conv_Proxima Nova Extrabold';
     font-size: 120px;
@@ -1035,7 +1041,7 @@ header {
     margin: 0 0 0 -20px;
 }
 
-.advertiser_item p {
+.for_advrts_item p {
     font-family: 'Conv_Proxima Nova Regular';
     color: #666666;
     font-size: 16px;
@@ -1214,7 +1220,7 @@ input {
 .nav_footer {
     display: inline-block;
     list-style: none;
-    padding: 25px 0 20px 0;
+    padding: 27px 0 40px 0;
 }
 
 .nav_footer ul {
@@ -1241,4 +1247,148 @@ input {
 
 .nav_footer ul li {
     list-style-type: none;
+}
+
+
+/* book_landing  singke */ 
+
+.single_page .nav_bar ul a {
+    font-family: 'Conv_Proxima Nova Regular';
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 5px;
+    transition: all .3s;
+    color: black;
+}
+
+.single_page .nav_bar ul a:hover {
+    color: #ff451a;
+    cursor: pointer;
+}
+
+
+.book_img {
+    margin: 100px 0 0 0;
+    display: block;
+    background-image: url(../img/single_page_book_img.png);
+    width: 500px;
+    height: 700px;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+    box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+}
+
+.single_book_info {
+    float: right;
+}
+
+.single_book_h2 {
+    font-size: 24px;
+    font-family: 'Conv_Proxima Nova Extrabold';
+    color: #ff451a;
+    margin: -700px 310px 0 0;
+}
+
+.app_link_apple {
+    margin: -55px 0 0 437px;
+}
+
+.app_link_google {
+    margin: 0 0 0 437px;
+} 
+
+.info_book {
+    color: #878787;
+    font-size: 14px;
+    font-family: 'Conv_Proxima Nova Regular';
+    margin-top: -10px;
+    line-height: 20px;
+}
+
+.book_summary {
+     font-size: 14px;
+    font-family: 'Conv_Proxima Nova Regular';
+    width: 541px;
+    
+    line-height: 20px;
+    margin: 55px 0 0 0 ;
+}
+
+.author_actor {
+    margin: -25px 0 0 0 ;
+    font-size: 16px;
+    color: #878787;
+    font-family: 'Conv_Proxima Nova Regular';
+}
+.author_actor p:nth-child(1), .author_actor p:nth-child(2) {
+    border-bottom: 3px solid #0066ff;
+    padding-bottom: 5px;
+    width: 60px;
+}
+
+.author_actor p:nth-child(1) {
+    margin: 90px 0 0 5px;
+}
+
+.author_actor p:nth-child(2) {
+    margin: -27px 0 0 320px;
+}
+
+.authors {
+    font-size: 14px;
+    color: #878787;
+    font-family: 'Conv_Proxima Nova Regular';
+    width: 180px;
+    line-height: 19px;
+    margin: 15px 0 0 4px;
+}
+
+
+.actors {
+    font-size: 14px;
+    color: #878787;
+    font-family: 'Conv_Proxima Nova Regular';
+    width: 180px;
+    line-height: 19px;
+    margin: -36px 0 0 322px;
+}
+.link_networks  {
+    margin: 40px 0 0 0;
+}
+
+.link_networks p {
+    font-size: 16px;
+    color: #878787;
+    font-family: 'Conv_Proxima Nova Regular';
+    padding-bottom: 10px;
+}
+
+.link_networks img {
+    opacity: .5;   
+    margin-right: 10px; 
+}
+
+
+.link_youtube {
+    margin: 50px 0 0 0;
+}
+
+ .youtube_item {
+    display: inline-block;
+    margin-right: 10px;
+    padding-bottom: 50px;
+ }
+.link_youtube h3 {
+    margin: 0 0 0  10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Conv_Proxima Nova Regular';
+}
+.link_youtube p {
+    margin: 0 0 0  10px;
+    font-size: 14px;
+    color: #878787;
+    font-family: 'Conv_Proxima Nova Regular';
 }
