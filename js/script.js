@@ -3,14 +3,18 @@ $(document).ready(function() {
         centerPadding: '250px',
         slidesToShow: 3,
         slidesToScroll: 1,
-        variableWidth: true
+        variableWidth: true,
+        nextArrow: '<img src="./img/next_arrow.png">',
+        prevArrow: '<img src="./img/prev_arrow.png">'
     });
 
     $('.recommend_wrap').slick({
         centerPadding: '250px',
         slidesToShow: 3,
         slidesToScroll: 1,
-        variableWidth: true
+        variableWidth: true,
+        nextArrow: '<img src="./img/next_arrow.png">',
+        prevArrow: '<img src="./img/prev_arrow.png">'
     });
 
     $('#city_select > li').click(function(event) {

@@ -596,14 +596,17 @@ header {
     padding-bottom: 15px;
 }
 
-
-.recommend_wrap .slick-next {
-   right: 85px;
+.recommend_wrap.slick-initialized.slick-slider > img:nth-child(3) {
+    margin: -308px 2px 215px 996px;
+    cursor: pointer;
 }
 
-.recommend_wrap .slick-prev {
-   left: 130px;
+.recommend_wrap.slick-initialized.slick-slider > img:nth-child(1) {
+    cursor: pointer;
+    margin: 281px 18px 0 -64px;
+    position: absolute;
 }
+
 .recommendations .slide_down_btn_2 {
     margin: 70px 0 0 540px;
     cursor: pointer;
@@ -697,6 +700,35 @@ header {
     padding: 180px 0 0 100px;
 }
 
+.buy_address_wrap {
+    width: 1000px;
+    margin: 70px 0 0 70px;
+}
+
+.address_item {
+    display: inline-block;
+    margin: 25px 0 0 115px;
+}
+
+.map_marker {
+    position: absolute;
+    margin: -5px 0px 0 -40px;
+}
+
+.address_name {
+    font-family: 'Conv_Proxima Nova Extrabold';
+    padding-bottom: 14px;
+}
+
+.address {
+    font-family: 'Conv_Proxima Nova Regular';
+    font-size: 12px;
+}
+
+.address_mail {
+    color: #666666;
+}
+
 .buy_h3_1 {
     width: 300px;
     margin: 100px 0 0 97px;
@@ -718,9 +750,15 @@ header {
     height: 200px;
 }
 
+.buy_slider.slick-initialized.slick-slider > img:nth-child(1) {
+    position: absolute;
+    margin: 155px 0 0 -45px;
+    cursor: pointer;
+}
 
- .buy_slider .slick-prev {
-    left: -44px;
+.buy_slider.slick-initialized.slick-slider > img:nth-child(3) {
+   margin: -68px 0px 62px 885px;
+   cursor: pointer;
 }
 
 .buy_image {
@@ -1168,5 +1206,39 @@ input {
     letter-spacing: 8px;
 }
 
+.footer {
+    background-color: #ededed;
+    border-top: 1px solid #d5d5d5;
+}
 
+.nav_footer {
+    display: inline-block;
+    list-style: none;
+    padding: 25px 0 20px 0;
+}
 
+.nav_footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 90px;
+    margin: 0 0 0 75px;
+}
+
+.nav_footer ul a {
+    font-family: 'Conv_Proxima Nova Regular';
+    display: block;
+    color: #1b1c21;
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 5px;
+    transition: all .3s;
+}
+
+.nav_footer ul a:hover {
+    color: #ff451a;
+    cursor: pointer;
+}
+
+.nav_footer ul li {
+    list-style-type: none;
+}
