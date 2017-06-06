@@ -1,4 +1,4 @@
-$(document).ready(function() {
+    $(document).ready(function() {
     $('.buy_slider').slick({
         centerPadding: '250px',
         slidesToShow: 3,
@@ -13,6 +13,13 @@ $(document).ready(function() {
         slidesToShow: 3,
         slidesToScroll: 1,
         variableWidth: true,
+        nextArrow: '<img src="./img/next_arrow.png">',
+        prevArrow: '<img src="./img/prev_arrow.png">'
+    });
+     $('.link_youtube').slick({
+        centerPadding: '250px',
+        slidesToShow: 3,
+        slidesToScroll: 1,
         nextArrow: '<img src="./img/next_arrow.png">',
         prevArrow: '<img src="./img/prev_arrow.png">'
     });
