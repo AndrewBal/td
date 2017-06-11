@@ -181,7 +181,8 @@ header {
     display: inline-block;
     list-style: none;
     float: right;
-    margin: -70px -135px;
+    margin: -70px -90px 0 0;
+    width: 860px;
 }
 
 .nav_bar ul {
@@ -305,7 +306,9 @@ header {
     padding: 0 0 75px 0;
 }
 
-.switcher {
+
+/* .switcher {
+   display: none;
     display: block;
     margin: -195px 0 0 -125px;
     padding: 0 0 50px 0;
@@ -349,7 +352,7 @@ header {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-}
+} */
 
 .news_page {
     background-color: #ededed;
@@ -428,12 +431,28 @@ header {
     margin: -10px 26px;
 }
 
+.news_nav a {
+    width: 200px;
+    padding-right: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.news_nav {
+    padding: 60px 0 0 0;
+    color: #ff451a;
+    font-size: 24px;
+    font-family: 'Conv_Proxima Nova Extrabold';
+    font-weight: bold;
+}
+
 .books {
     background-color: #ededed;
 }
 
 .books_nav {
-    padding: 70px 0;
+    margin: 0 0 0 45px;
+    padding: 60px 0 0 0;
     color: #ff451a;
     font-size: 24px;
     font-family: 'Conv_Proxima Nova Extrabold';
@@ -481,15 +500,15 @@ header {
 }
 
 .books_wrap {
-    margin: 70px 0 0 130px;
-    width: 1078px;
+    margin: 70px 0 0 63px;
+    width: 1061px;
 }
 
 .books_item {
     display: inline-block;
     border-left: 1px solid #c6c6c6;
-    margin: 40px 0px;
-    width: 350px;
+    margin: 40px 0px 0 20px;
+    width: 330px;
 }
 
 .books_image {
@@ -520,8 +539,8 @@ header {
 }
 
 .recommend_wrap {
-    margin: 50px 0 0 -180px;
-    padding-left: 206px;
+    margin: 50px 0 0 0;
+    padding-left: 38px;
 }
 
 .recommendations {
@@ -539,7 +558,7 @@ header {
 
 .recommendations_h2 {
     width: 200px;
-    margin: 265px -90px 0 0px;
+    margin: 265px -36px 0 0px;
     font-weight: 800;
     font-size: 30px;
     font-family: 'Conv_Proxima Nova Extrabold';
@@ -557,7 +576,7 @@ header {
     position: relative;
     margin: 105px -50px 0 118px;
     display: inline-block;
-    width: 268px;
+    width: 260px;
     height: 381px;
     background-color: white;
     -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
@@ -566,7 +585,7 @@ header {
 }
 
 .recommend_image {
-    width: 250px;
+    width: 145px;
     height: 250px;
     background-repeat: no-repeat;
     background-image: url(../img/recommend_image1.png);
@@ -598,18 +617,18 @@ header {
 }
 
 .recommend_wrap.slick-initialized.slick-slider > img:nth-child(3) {
-    margin: -308px 2px 215px 996px;
+    margin: -308px 2px 215px 940px;
     cursor: pointer;
 }
 
 .recommend_wrap.slick-initialized.slick-slider > img:nth-child(1) {
     cursor: pointer;
-    margin: 281px 18px 0 -64px;
+    margin: 281px 18px 0 -28px;
     position: absolute;
 }
 
 .recommendations .slide_down_btn_2 {
-    margin: 70px 0 0 540px;
+    margin: 70px 0 0 475px;
     cursor: pointer;
     padding-bottom: 50px;
 }
@@ -643,13 +662,17 @@ header {
 
 .buy_h3 {
     width: 300px;
-    margin: 85px 0 0 100px;
+    margin: 69px 0 0 100px;
     font-weight: 800;
     font-size: 40px;
     font-family: 'Conv_Proxima Nova Extrabold';
     font-weight: 900;
     float: left;
     color: #ff451a;
+}
+
+.city_select {
+    margin: 0 0 0 -103px;
 }
 
 #city_select {
@@ -703,6 +726,10 @@ header {
     padding: 180px 0 0 100px;
 }
 
+.map_960 {
+    display: none;
+}
+
 .buy_address_wrap {
     width: 1000px;
     margin: 70px 0 0 70px;
@@ -745,6 +772,7 @@ header {
 }
 
 .buy_slider {
+    padding-bottom: 40px;
     float: left;
     margin: -40px 0 16px 134px;
     width: 871px;
@@ -801,11 +829,18 @@ header {
     -moz-transform: rotate(270deg);
     float: left;
 }
+
 .video {
-    margin: 80px 0 0 190px;
+    margin: 80px 0 0 160px;
 }
+
+.video_960 {
+        display: none;
+
+    }
+
 .parents_wrap {
-    padding: 0 0 80px 0;
+    padding-bottom: 20px;
 }
 
 .parents_p {
@@ -816,12 +851,13 @@ header {
     font-family: 'Conv_Proxima Nova Regular';
     color: #666666;
     border-left: 5px solid #ff451a;
-    margin: 95px 52px 13px 189px;
+    margin: 95px 52px 13px 160px;
 }
 
 .parents_item {
+    width: 830px;
     padding: 60px 0 70px 80px;
-    margin: 60px 0 0 180px;
+    margin: 60px 0 0 160px;
     background-color: #ffffff;
     -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
@@ -873,7 +909,7 @@ header {
 }
 
 .school_wrap {
-    padding: 0 0 80px 0;
+    padding: 0 0 40px 0;
 }
 
 .school_p {
@@ -884,12 +920,13 @@ header {
     font-family: 'Conv_Proxima Nova Regular';
     color: #666666;
     border-left: 5px solid #ff451a;
-    margin: 95px 52px 13px 189px;
+    margin: 95px 52px 13px 160px;
 }
 
 .school_item {
+    width: 830px;
     padding: 60px 0 70px 80px;
-    margin: 60px 0 0 180px;
+    margin: 60px 0 0 160px;
     background-color: #ffffff;
     -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
@@ -941,7 +978,7 @@ header {
 }
 
 .partners_wrap {
-    padding: 0 0 80px 0;
+    padding: 0 0 40px 0;
 }
 
 .partners_p {
@@ -952,12 +989,13 @@ header {
     font-family: 'Conv_Proxima Nova Regular';
     color: #666666;
     border-left: 5px solid #ff451a;
-    margin: 95px 52px 13px 189px;
+    margin: 95px 52px 13px 160px;
 }
 
 .partners_item {
+    width: 830px;
     padding: 60px 0 70px 80px;
-    margin: 60px 0 0 180px;
+    margin: 60px 0 0 160px;
     background-color: #ffffff;
     -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
@@ -1009,7 +1047,7 @@ header {
 }
 
 .for_advrts_wrap {
-    padding: 0 0 80px 0;
+    padding: 0 0 40px 0;
 }
 
 .for_advrts_p {
@@ -1020,12 +1058,13 @@ header {
     font-family: 'Conv_Proxima Nova Regular';
     color: #666666;
     border-left: 5px solid #ff451a;
-    margin: 95px 52px 13px 189px;
+    margin: 95px 52px 13px 160px;
 }
 
 .for_advrts_item {
+    width: 830px;
     padding: 60px 0 70px 80px;
-    margin: 60px 0 0 180px;
+    margin: 60px 0 0 160px;
     background-color: #ffffff;
     -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
@@ -1123,7 +1162,7 @@ header {
 .form {
     background-color: #ff451a;
     height: 490px;
-    width: 985px;
+    width: 950px;
     margin: 55px 0 0 140px;
     outline: none;
     -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
@@ -1184,7 +1223,7 @@ input {
 
 .input_message {
     font-family: 'Conv_Proxima Nova Regular';
-    width: 405px;
+    width: 370px;
     display: block;
     padding: 12px 7px 205px 20px;
     border: none;
@@ -1218,7 +1257,7 @@ input {
 }
 
 .nav_footer {
-    margin: 0 0 0 -140px;
+    margin: 0 0 0 -20px;
     display: inline-block;
     list-style: none;
     padding: 27px 0 40px 0;
@@ -1252,7 +1291,6 @@ input {
 
 
 /* book_landing  singke */
-
 
 .single_page {
     background-color: #ededed;
@@ -1322,12 +1360,12 @@ input {
 
 .app_link_apple {
     width: 15px;
-    margin: -55px 0 0 440px;
+    margin: -55px 0 0 395px;
 }
 
 .app_link_google {
     width: 15px;
-    margin: 0 0 0 440px;
+    margin: 0 0 0 395px;
 }
 
 .info_book {
@@ -1341,7 +1379,7 @@ input {
 .book_summary {
     font-size: 14px;
     font-family: 'Conv_Proxima Nova Regular';
-    width: 432px;
+    width: 427px;
     line-height: 20px;
     margin: 35px 0 0 100px;
 }
@@ -1498,7 +1536,7 @@ input {
 }
 
 .starring_2 {
-    margin: 0 0 0 -130px;
+    margin: 0 0 0 -155px;
 }
 
 .starring_h2 {
@@ -1592,7 +1630,7 @@ input {
 }
 
 .app_h2 {
-    margin: 140px 0 0 -165px;
+    margin: 140px 0 0 -150px;
     width: 350px;
     font-size: 30px;
     font-family: 'Conv_Proxima Nova Extrabold';
@@ -1607,7 +1645,7 @@ input {
     padding: 35px 0 35px 0;
     background-color: #ff451a;
     margin: 0 0 0 90px;
-    width: 1050px;
+    width: 1029px;
     -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
@@ -1690,22 +1728,6 @@ input {
     margin: 0 0 0 439px;
 }
 
-.recommend_page {
-    background-color: #ededed;
-    padding: 0 0 60px 0;
-}
-
-.recommend_page .recommend_wrap {
-    margin: 0px 0 0 40px;
-    padding: 0px 91px 0 0;
-}
-
-.recommend_page .recommendations_h2 {
-    margin: 265px 0 0 0;
-}
-
-
-
 .review_page {
     background-color: #ededed;
     padding-bottom: 70px;
@@ -1715,7 +1737,7 @@ input {
     font-size: 60px;
     font-weight: 900;
     width: 200px;
-    margin: 150px -90px 0 0px;
+    margin: 150px -60px 0 0px;
     font-family: 'Conv_Proxima Nova Extrabold';
     font-weight: 900;
     transform: rotate(270deg);
@@ -1775,7 +1797,7 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
 }
 
 .review_wrap.slick-initialized.slick-slider {
-    margin: 395px 0 0 95px;
+    margin: 395px 0 0 76px;
     width: 962px;
 }
 
@@ -1791,8 +1813,8 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
     position: absolute;
 }
 
-    .book_image {
-        margin: 0 0 0 30px;
+.book_image {
+    margin: 0 0 0 30px;
     -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
@@ -1804,11 +1826,11 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
 }
 
 .book_choice_wrap {
-   margin: 1px -56px 0 -224px
+    margin: 1px -56px 0 -224px
 }
 
- .book_choice_h2 {
-   width: 265px;
+.book_choice_h2 {
+    width: 265px;
     margin: 130px 0 0 -88px;
     font-weight: 800;
     font-size: 60px;
@@ -1820,14 +1842,14 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
     float: left;
     height: 79px;
     position: absolute;
- }
+}
 
- .books_block {
+.books_block {
     margin: 0 0 0 100px;
- }
+}
 
 .book_choice_item {
-   border-left: 1px solid #c6c6c6;
+    border-left: 1px solid #c6c6c6;
     margin: 35px 0 0 10px;
     display: inline-block;
     padding-right: 25px;
@@ -1854,3 +1876,318 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
     font-size: 22px;
     width: 162px;
 }
+
+@media (min-width: 800px) and (max-width: 1120px) {
+    .wrapper {
+        max-width: 960px;
+    }
+    .nav_bar {
+        margin: -71px -117px 0 0;
+        width: 743px;
+    }
+    .nav_bar ul {
+        padding-left: 62px;
+    }
+    .main_block {
+        margin: 150px 0 0 75px;
+    }
+    .man {
+        margin: 50px 0px 0px 560px;
+    }
+    .tablet {
+        margin: 150px 0 0 650px;
+    }
+    .news_h2 {
+        font-size: 52px;
+        margin: 170px 0 0 -230px;
+    }
+    .news_image {
+        width: 177px;
+        height: 177px;
+    }
+    .news_text {
+        font-size: 10px;
+        width: 240px;
+    }
+    .news_title {
+        font-size: 21px;
+    }
+    .news_wrap {
+        margin: 69px 0 0 167px;
+    }
+    .news_item {
+        margin: 42px 0 0 -70px;
+    }
+    .news_item {
+        width: 330px;
+    }
+    .books_wrap {
+        width: 906px;
+    }
+    .news_nav {
+        margin: 0 0 0 -40px;
+    }
+    .books_nav {
+        margin: 0 0 0 50px;
+    }
+    .books_item {
+        width: 265px;
+    }
+    .books_image {
+        width: 191px;
+        height: 262px;
+        background-image: url(../img/book_3_960.png);
+    }
+    .books_h2 {
+        font-size: 52px;
+        margin: 160px 0 0 -165px;
+    }
+    .books_text {
+        font-size: 10px;
+        width: 240px;
+    }
+    .books_title {
+        font-size: 21px;
+    }
+    .recommend_item {
+        margin: 105px -50px 0 80px;
+        width: 230px;
+        height: 341px
+    }
+    .recommend_name {
+        font-size: 13px;
+    }
+    .recommend_text {
+        margin: 5px 35px;
+        font-size: 13px;
+    }
+    .recommend_image {
+        background-image: url(../img/recommend_image1_960.png);
+        margin: 40px 43px;
+    }
+    .recommend_wrap.slick-initialized.slick-slider > img:nth-child(3) {
+        margin: -322px 2px 175px 775px;
+    }
+    .recommendations .slide_down_btn_2 {
+        margin: 70px 0 0 400px;
+    }
+
+    .city_select {
+        margin: 0 0 0 -212px;
+    }
+    
+    .bottom_arrow {
+        width: 45px;
+    }
+
+    .buy_h2 {
+            margin: 180px 0 0 -150px;
+       font-size:  52px;
+    }
+    .map {
+        display: none;
+    }
+    .map_960 {
+        display: block;
+        padding: 180px 0 0 93px;
+    }
+
+    .buy_h3 {
+        font-size: 32px;
+    }
+
+    .buy_h3_1 {
+        font-size: 32px;
+        margin: 80px 0 0 104px;
+    }
+
+    .buy_slider {
+      margin: -40px 0 16px 145px;
+      width: 780px;
+    }
+
+    .buy_image {
+        background-image: url(../img/buy_image_960.png);
+        margin: 105px -70px 0 110px;
+    }
+
+    .buy_slider.slick-initialized.slick-slider > img:nth-child(3) {
+        margin: -68px 0px 62px 780px;
+    }
+       
+    .video {
+        display: none;
+    }   
+
+    .video_960 {
+        display: block;
+        margin: 85px 0 0 160px;
+    }
+
+    
+
+    .parents_h2 {
+        font-size:  52px;
+        margin: 165px 0 0 -150px;
+    }
+
+    .parents_p {
+            width: 585px;
+    font-size: 18px;
+    }
+
+    .parents_item {
+        width: 690px;
+    }
+
+    .parents_item p {
+        font-size: 12px;
+            line-height: 18px;
+    }
+
+    .parents_item h2 {
+            margin: -8px 0 0 0px;
+    }
+
+    
+    .school_h2 {
+        font-size:  52px;
+        margin: 85px 0 0 -150px;
+    }
+
+    .school_p {
+            width: 585px;
+    font-size: 18px;
+    }
+
+    .school_item {
+        width: 690px;
+    }
+
+    .school_item p {
+        font-size: 12px;
+            line-height: 18px;
+    }
+
+    .school_item h2 {
+            margin: -8px 0 0 0px;
+    }
+
+     .partners_h2 {
+        font-size:  52px;
+        margin: 172px 0 0 -150px;
+    }
+
+    .partners_p {
+            width: 585px;
+    font-size: 18px;
+    }
+
+    .partners_item {
+        width: 690px;
+    }
+
+    .partners_item p {
+        font-size: 12px;
+            line-height: 18px;
+    }
+
+    .partners_item h2 {
+            margin: -8px 0 0 0px;
+    }
+
+
+    .for_advrts_h2 {
+        font-size:  52px;
+        margin: 350px 0 0 -150px;
+    }
+
+    .for_advrts_p {
+            width: 585px;
+    font-size: 18px;
+    }
+
+    .for_advrts_item {
+        width: 690px;
+    }
+
+    .for_advrts_item p {
+        font-size: 12px;
+            line-height: 18px;
+    }
+
+    .for_advrts_item h2 {
+            margin: -8px 0 0 0px;
+    }
+   
+   .form {
+    width: 735px;
+   }
+
+   .input_city{
+    width: 300px;
+    margin: 30px 0 0 25px;
+   } 
+   .input_name{
+    width: 300px;
+    margin: 30px 0 0 25px;
+   } 
+   .input_mail{
+    width: 300px;
+    margin: 30px 0 0 25px;
+   } 
+   .input_tel{
+    width: 300px;
+    margin: 30px 0 0 25px;
+   } 
+
+   .input_message {
+    width: 295px;
+    margin: -247px 22px 0 0;
+   }
+
+   .input_btn {
+    margin: 70px 0 0 233px;
+   }
+    
+.nav_footer {
+    margin: 0 0 0 30px;
+}
+
+   .nav_footer ul {
+    padding-left: 30px;
+   }
+
+   .contacts_h2 {
+         font-size:  52px;
+        margin: 165px 0 0 -150px;
+   }
+
+.contact_2 {
+    margin: -100px 0 0 615px;
+}
+   .contact_1 p {
+    font-size: 14px;
+}
+
+
+.contact_1 h3 {
+    font-size: 14px;
+}
+
+.contact_2 p {
+    
+    font-size: 27px;
+    }
+
+    .contact_2 h3 {
+ font-size: 14px;
+    }
+    
+
+  
+}
+
+@media (min-width: 415px) and (max-width: 800px) {}
+
+@media (max-width: 414px) {}
