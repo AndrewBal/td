@@ -1,4 +1,16 @@
     $(document).ready(function() {
+
+
+
+    $("#burger").click(function(){
+    $(".line_1").toggleClass("line_1_active");
+    $(".line_2").toggleClass("line_2_active");
+    $(".line_3").toggleClass("line_3_active");
+    $(".nav_bar").toggleClass("nav_bar_open");
+    $(".logo").toggleClass("logo_none");
+
+ });
+
     $('.buy_slider').slick({
         centerPadding: '250px',
         slidesToShow: 5,
