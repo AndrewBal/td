@@ -738,6 +738,10 @@ header {
     display: none;
 }
 
+.map_768 {
+    display: none;
+}
+
 .buy_address_wrap {
     width: 1000px;
     margin: 70px 0 0 70px;
@@ -843,6 +847,10 @@ header {
 }
 
 .video_960 {
+    display: none;
+}
+
+.video_768 {
     display: none;
 }
 
@@ -2226,7 +2234,7 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
     }
     #burger {
         float: right;
-        margin: 70px 100px 0 0;
+        margin: 75px 100px 0 0;
         display: block;
         z-index: 10;
     }
@@ -2287,7 +2295,6 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         z-index: 6;
         -webkit-transition: all .3s linear;
     }
-
     .nav_bar ul:nth-child(1) {
         margin: 230px 0 0 215px;
     }
@@ -2523,16 +2530,13 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
     .parents_item {
         width: 690px;
     }
-    .parents_item p {
-        font-size: 12px;
-        line-height: 18px;
-    }
+   
     .parents_item h2 {
         margin: -8px 0 0 0px;
     }
     .school_h2 {
         font-size: 52px;
-        margin: 85px 0 0 -150px;
+       margin: 55px 0 0 -120px;
     }
     .school_p {
         width: 585px;
@@ -2568,7 +2572,7 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
     }
     .for_advrts_h2 {
         font-size: 52px;
-        margin: 350px 0 0 -150px;
+        margin: 322px 0 0 -120px;
     }
     .for_advrts_p {
         width: 585px;
@@ -2586,10 +2590,10 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
     }
     .contacts_h2 {
         font-size: 52px;
-        margin: 165px 0 0 -150px;
+        margin: 115px 0 0 -120px;
     }
     .contact_2 {
-        margin: -100px 0 0 615px;
+        margin: -100px 0 0 475px;
     }
     .contact_1 p {
         font-size: 14px;
@@ -2604,62 +2608,402 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         font-size: 14px;
     }
     .form {
-        width: 735px;
+        height: 430px;
+        width: 589px;
     }
     .input_city {
-        width: 300px;
+        width:  240px;
         margin: 30px 0 0 25px;
     }
     .input_name {
-        width: 300px;
+        width:  240px;
         margin: 30px 0 0 25px;
     }
     .input_mail {
-        width: 300px;
+        width:  240px;
         margin: 30px 0 0 25px;
     }
     .input_tel {
-        width: 300px;
+        width:  240px;
         margin: 30px 0 0 25px;
     }
     .input_message {
-        width: 295px;
+        width: 220px;
         margin: -247px 22px 0 0;
     }
     .input_btn {
-        margin: 70px 0 0 233px;
+            
+            padding: 15px 40px 15px 40px;
+        letter-spacing: 6px;
+        font-size: 14px;
+           margin: 40px 0 0 190px;
     }
     .nav_footer {
-        margin: 0 0 0 30px;
+       margin: 0 0 0 0;
     }
     .nav_footer ul {
-        padding-left: 30px;
+        padding-left: 0;
     }
-    #section1 {
+    .news_page .nav_bar ul a {
+        font-weight: normal;
+        font-size: 23px;
+    }
+    .news_page #burger  {
+            margin: 75px 100px 0 0;
+    }
+    .news_page #burger .line_1 {
+        background-color: #000000;
+    }
+    .news_page #burger .line_2 {
+        background-color: #000000;
+    }
+    .news_page #burger .line_3 {
+        background-color: #000000;
+    }
+    .news_wrap {
+        margin: 69px 0 0 225px;
+    }
+    .books .nav_bar ul a {
+        font-weight: normal;
+        font-size: 23px;
+    }
+    .books #burger .line_1 {
+        background-color: #000000;
+    }
+    .books #burger .line_2 {
+        background-color: #000000;
+    }
+    .books #burger .line_3 {
+        background-color: #000000;
+    }
+    .books_h2 {
+        margin: 160px 0 0 -115px;
+    }
+    .books_wrap {
+        width: 630px;
+        margin: 60px 0 0 135px;
+    }
+    .recommendations .nav_bar ul a {
+        font-weight: normal;
+        font-size: 23px;
+    }
+    .recommendations #burger  {
+            margin: 75px 100px 0 0;
+    }
+    .recommendations #burger .line_1 {
+        background-color: #000000;
+    }
+    .recommendations #burger .line_2 {
+        background-color: #000000;
+    }
+    .recommendations #burger .line_3 {
+        background-color: #000000;
+    }
+    .recommend_item {
+        height: 270px;
+        width: 170px;
+    }
+    .recommend_wrap.slick-initialized.slick-slider > img:nth-child(3) {
+        margin: -105px 0px 175px 593px;
+    }
+    .recommend_image {
+        background-image: url(../img/recommend_image1_768.png);
+        margin: 40px 28px
+    }
+    .recommend_text,
+    .recommend_name {
+        font-size: 10px;
+    }
+    .recommend_line {
+        margin: -145px 40px;
+        width: 45px;
+        height: 3px;
+    }
+    .recommendations_h2 {
+        font-size: 30px;
+        margin: 250px -45px 0 -115px;
+    }
+    .recommend_wrap {
+        width: 633px;
+        margin: -10px 0 0 25px;
+    }
+    .recommend_name {
+        margin: 160px 0 0 39px
+    }
+    .recommend_text {
+        margin: 5px 39px
+    }
+    .recommendations .slide_down_btn_2 {
+        margin: 40px 0 0 350px;
+    }
+
+    .buy .nav_bar ul a {
+        font-weight: normal;
+        font-size: 23px;
+    }
+
+    .buy #burger  {
+            margin: 80px 100px 0 0;
+    }
+
+    .buy #burger .line_1 {
+        background-color: #000000;
+    }
+    .buy #burger .line_2 {
+        background-color: #000000;
+    }
+    .buy #burger .line_3 {
+        background-color: #000000;
+    }
+
+    .buy_h2 {
+    margin: 180px 0 0 -115px;
+}
+    
+    .map_960 {
         display: none;
     }
-    #section2 {
+
+    .map_768 {
+        display: block;
+        padding: 168px 0 0 130px;
+    }
+
+    .city_select {
+        margin: 0px 0 0 -430px;
+    }
+
+    .buy_h3 {
+            margin: 69px 0 0 130px;
+    }
+
+    .buy_h3_1 {
+        margin: 80px 0 0 130px;
+    }
+
+    .buy_slider {
+        width: 570px;
+    }
+
+    .buy_slider.slick-initialized.slick-slider > img:nth-child(3) {
+    margin: -68px 0px 62px 590px;
+}
+
+.buy_slider.slick-initialized.slick-slider > img:nth-child(1) {
+
+    margin: 155px 0 0 -40px;
+    }
+
+
+     .parents .nav_bar ul a {
+        font-weight: normal;
+        font-size: 23px;
+    }
+
+   .parents #burger {
+    
+    margin: 30px 100px 0 0;
+}
+    .parents #burger .line_1 {
+        background-color: #000000;
+    }
+    .parents #burger .line_2 {
+        background-color: #000000;
+    }
+    .parents #burger .line_3 {
+        background-color: #000000;
+    }
+        
+    .video_960 {
         display: none;
     }
-    #section3 {
-        display: none;
+    .video_768 {
+        display: block;
+        margin: 54px 0 0 125px;
     }
-    #section4 {
-        display: none;
+
+    .parents_h2 {
+    
+        margin: 132px 0 0 -120px;
+}
+
+    .parents_p {
+        width: 585px;
+       margin: 95px 52px 13px 125px;
     }
-    #section5 {
-        display: none;
+
+    .parents_item {
+       padding-bottom: 45px;
+       padding-top: 45px;
+        width: 530px;
+        margin: 60px 0 0 125px;
     }
-    #section6 {
-        display: none;
+
+    .parents_item h2 {
+        font-size: 94px;
+        margin: 0 0 0 -40px;
     }
-    #section7 {
-        display: none;
+  
+    .parents_item p {
+        line-height: 17px;
+        font-size: 12px;
+            width: 410px;
+           margin: 10px 70px 0 100px;
     }
-    #section8 {
-        display: none;
+
+
+
+    .school .nav_bar ul a {
+        font-weight: normal;
+        font-size: 23px;
     }
-    #section9 {
-        display: none;
+
+   .school #burger {
+    
+    margin: 75px 100px 0 0;
+}
+    .school #burger .line_1 {
+        background-color: #000000;
     }
+    .school #burger .line_2 {
+        background-color: #000000;
+    }
+    .school #burger .line_3 {
+        background-color: #000000;
+    }
+
+    .school_p {
+        width: 585px;
+       margin: 95px 52px 13px 125px;
+    }
+
+    .school_item {
+       padding-bottom: 45px;
+       padding-top: 45px;
+        width: 530px;
+        margin: 60px 0 0 125px;
+    }
+
+    .school_item h2 {
+        font-size: 94px;
+        margin: 0 0 0 -40px;
+    }
+  
+    .school_item p {
+        line-height: 17px;
+        font-size: 12px;
+            width: 410px;
+           margin: 10px 70px 0 100px;
+    }
+
+
+    .partners .nav_bar ul a {
+        font-weight: normal;
+        font-size: 23px;
+    }
+
+   .partners #burger {
+    
+    margin: 80px 100px 0 0;
+}
+    .partners #burger .line_1 {
+        background-color: #000000;
+    }
+    .partners #burger .line_2 {
+        background-color: #000000;
+    }
+    .partners #burger .line_3 {
+        background-color: #000000;
+    }
+
+
+.partners_p {
+        width: 585px;
+       margin: 95px 52px 13px 125px;
+    }
+
+    .partners_item {
+       padding-bottom: 45px;
+       padding-top: 45px;
+        width: 530px;
+        margin: 60px 0 0 125px;
+    }
+
+    .partners_item h2 {
+        font-size: 94px;
+        margin: 0 0 0 -40px;
+    }
+  
+    .partners_item p {
+        line-height: 17px;
+        font-size: 12px;
+            width: 410px;
+           margin: 10px 70px 0 100px;
+    }
+
+
+.for_advrts .nav_bar ul a {
+        font-weight: normal;
+        font-size: 23px;
+    }
+
+   .for_advrts #burger {
+    
+    margin: 80px 100px 0 0;
+}
+    .for_advrts #burger .line_1 {
+        background-color: #000000;
+    }
+    .for_advrts #burger .line_2 {
+        background-color: #000000;
+    }
+    .for_advrts #burger .line_3 {
+        background-color: #000000;
+    }
+
+
+    .for_advrts_p {
+        width: 585px;
+       margin: 95px 52px 13px 125px;
+    }
+
+    .for_advrts_item {
+       padding-bottom: 45px;
+       padding-top: 45px;
+        width: 530px;
+        margin: 60px 0 0 125px;
+    }
+
+    .for_advrts_item h2 {
+        font-size: 94px;
+        margin: 0 0 0 -40px;
+    }
+  
+    .for_advrts_item p {
+        line-height: 17px;
+        font-size: 12px;
+            width: 410px;
+           margin: 10px 70px 0 100px;
+    }
+
+    .contacts_wrap {
+        margin: -90px 0 0 0;
+    }
+
+     .contacts .nav_bar ul a {
+        font-weight: normal;
+        font-size: 23px;
+    }
+    .contacts #burger .line_1 {
+        background-color: #000000;
+    }
+    .contacts #burger .line_2 {
+        background-color: #000000;
+    }
+    .contacts #burger .line_3 {
+        background-color: #000000;
+    }
+
+  
+  
 }
