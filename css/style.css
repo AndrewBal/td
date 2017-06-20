@@ -2778,6 +2778,12 @@ margin: 43px 0 0 -9px;
         display: block;
         z-index: 10;
     }
+    .single_page #burger {
+        float: right;
+        margin: 56px 100px 0 0;
+        display: block;
+        z-index: 10;
+    }
     #burger .line_1 {
         background-color: #ffffff;
         width: 52px;
@@ -2792,6 +2798,25 @@ margin: 43px 0 0 -9px;
     }
     #burger .line_3 {
         background-color: #ffffff;
+        width: 52px;
+        height: 6px;
+        margin: 22px 0 0 0;
+    }
+
+    .book_page #burger .line_1 {
+        background-color: #000000;
+        width: 52px;
+        height: 6px;
+        margin: -2px 0 0 0;
+    }
+    .book_page #burger .line_2 {
+        background-color: #000000;
+        width: 52px;
+        height: 6px;
+        margin: 10px 0 0 0;
+    }
+    .book_page #burger .line_3 {
+        background-color: #000000;
         width: 52px;
         height: 6px;
         margin: 22px 0 0 0;
@@ -3494,6 +3519,442 @@ margin: 43px 0 0 -9px;
     .contacts #burger .line_3 {
         background-color: #000000;
     }
+
+
+
+
+     /* single_page */
+
+     .logo img {
+        width: 188px;
+     }
+
+     .book_h2 {
+            font-size: 41px;
+            margin: 0 0 0 -186px;
+     }
+
+     .single_book_h2 {
+        font-size: 17px;
+        margin: -375px 0 0 160px;
+     }
+.single_book_info {
+    margin: 0px 25px 0px 0px;
+}
+     .info_book {
+        margin:  -15px 0 0 160px;
+        text-transform: uppercase;
+        font-size: 10px;
+        line-height: 16px;
+     }
+
+
+.app_link_apple img {
+    width: 82px;
+}
+.app_link_google img {
+    width: 82px;
+}
+
+.app_link_apple {
+    margin: -40px 0 0 395px;
+}
+
+.app_link_google {
+    
+    margin: 0 0 0 395px;
+    }
+.book_page_content {
+    margin: -25px 0 0 90px;
+}
+
+     .book_summary {
+        text-align: justify;
+    font-size: 11px;
+    line-height: 14px;
+    margin:  15px 0 0 160px;
+}
+
+
+.author_actor  {
+    font-size: 13px;
+    
+}
+
+.author_actor p:nth-child(1) {
+    border-bottom: 2px solid #0066ff;
+    padding-bottom: 0px;
+    width: 52px;
+    margin: 77px 0 0 60px;
+}
+.author_actor p:nth-child(2) {
+    border-bottom: 2px solid #0066ff;
+    padding-bottom: 0px;
+    width: 52px;
+    margin: -17px 0 0 229px;
+}
+
+.author_actor p {
+    text-transform: uppercase;
+}
+.authors, .actors {
+    font-size: 11px;
+}
+
+.authors {
+
+    margin: 10px 0 0 159px;
+    width: 110px;
+    line-height: 14px;
+}
+.actors {
+        padding-top: 9px;
+        width: 124px;
+    line-height: 14px;
+        margin: -51px 0 0 330px;
+}
+.link_networks {
+    margin: 1px 0 0 160px;
+}
+
+.link_networks p {
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.link_networks img {
+    width: 35px;
+}
+
+.youtube_item h3 {
+    display: none;
+}
+.youtube_item p {
+    display: none;
+}
+
+
+.book_img {
+        margin: 60px 0 0 20px;
+        width: 277px;
+    height: 381px;
+    background-image: url(../img/single_page_book_img_768.png);
+}
+
+
+.logo {
+        margin: 0 0 0 15px;
+        padding-top: 35px;  
+}
+
+.book_summary {
+    width: 320px;
+}
+
+
+.link_youtube {
+    width: 560px;
+    margin: 170px 0 0 65px;
+}
+
+
+ .youtube_item img {
+    width: 160px;
+ }
+
+ .link_youtube.slick-initialized.slick-slider > img:nth-child(1) {
+    margin: 45px 0 0 -35px;
+}
+
+.link_youtube.slick-initialized.slick-slider > img:nth-child(3) {
+        margin: -60px 0 0 548px;
+    }
+
+    .starring_h2 {
+    font-size: 39px;
+    margin: -235px 0 0 570px;
+    line-height: 40px;
+}
+
+.actor_main h2 {
+    font-size: 19px;
+    margin: 12px 0 0 300px
+}
+
+.actor_main h3 {
+    margin: -220px 0 0 300px;
+    font-size: 14px;
+}
+
+.actor_main p  {
+    margin: 17px 0 0 300px;
+    font-size: 9px;
+    width: 125px;
+        line-height: 12px;
+}
+
+
+.line_actor {
+    width: 37px;
+    margin: 15px 0 0 300px
+}
+
+.photo_main {
+    display: none;
+}
+
+.photo_main_768 {
+   height: 247px;
+    width: 353px;
+margin: 0 0 0 145px;
+    background-color: #1c1d23;
+    
+    -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+    box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+}
+
+
+
+.actor_1_960 img {
+    width: 128px;
+}
+
+.actor_1_960 {
+        margin: 10px 0 0 490px;
+    width: 128px;
+    height: 245px;
+}
+.actor_1_960 h3 {
+        margin: 10px 0 0 14px;
+    font-size: 10px;
+}
+.actor_1_960 p {
+        font-family: 'Conv_Proxima Nova Extrabold';
+    font-size: 11px;
+    margin: 5px 0 0 15px;
+}
+
+.actor_2_960 img {
+    width: 128px;
+}
+
+.actor_2_960 {
+        margin: -245px 0 0 634px;
+    width: 128px;
+    height: 245px;
+}
+.actor_2_960 h3 {
+        margin: 10px 0 0 14px;
+    font-size: 10px;
+}
+.actor_2_960 p {
+        font-family: 'Conv_Proxima Nova Extrabold';
+    font-size: 11px;
+    margin: 5px 0 0 15px;
+}
+
+.actor_3_960 img {
+    width: 128px;
+}
+
+.actor_3_960 {
+        margin: -245px 0 0 779px;
+    width: 128px;
+    height: 245px;
+}
+.actor_3_960 h3 {
+        margin: 10px 0 0 14px;
+    font-size: 10px;
+}
+.actor_3_960 p {
+        font-family: 'Conv_Proxima Nova Extrabold';
+    font-size: 11px;
+    margin: 5px 0 0 15px;
+}
+
+
+
+
+
+.app_wrap {
+    margin: 0 0 0 100px;
+    height: 296px;
+    width: 604px;
+}
+
+.app_h2 {
+    margin: 103px 0 0 -125px;
+    font-size: 26px;
+}
+
+.install_app {
+   margin: 30px 0 0 -29px;
+}
+.install_app_img {
+    margin: 0 0 0 -57px;
+}
+.install_app_img img {
+    width: 78px;
+    margin: 0 ;
+}
+.install_app_p {
+    margin: 10px 0 0 -90px;
+    font-size: 13px;
+}
+.install_app .app_link_apple {
+        margin: 15px 0 0 -60px;
+}
+
+.install_app .app_link_google  {
+        margin: -40px 0 0 355px;
+}
+.print_app {
+    margin: 0 0 0 80px;
+}
+.print_app_img {
+   margin: 8px 0 0 -18px;
+}
+.print_app_img  img{
+     width: 114px;
+}
+
+.print_app_p {
+           margin: -15px 0 0px -26px;
+    font-size: 13px;
+}
+
+.download_img {
+    margin: 40px 0 0 -23px;
+    padding: 7px 0 0px 10px;
+    width: 109px;
+    height: 28px;
+}
+
+
+.download_img a {
+    font-size: 13px;
+}
+
+
+ .point_cam_img  {  
+    margin: -237px 0 0 333px;
+}
+.point_cam_img img {
+        margin: -20px 0 0 0;
+     width: 127px;
+}
+
+.point_cam_p { 
+               margin: 24px 0 0 319px;
+    font-size: 13px;
+ }
+
+
+
+
+
+
+
+
+.review_page_h2 {
+    font-size: 36px;
+}
+
+
+.review_img img {
+    width: 140px;
+}
+
+.review_item {
+    height: 395px;
+    width: 140px;
+    margin: 20px 45px 0 0;
+}
+
+.review_p {
+    font-size: 10px;
+    line-height: 12px;
+    width: 109px;
+    margin: 5px 0 0 10px;
+}
+
+.review_h3  h3{
+    font-size: 12px;
+        margin: 10px 0 0 -6px;
+}
+.review_line {
+    margin: 20px 0 10px 10px;
+    width: 37px;
+}
+.review_h2 {
+    font-size: 9px;
+    margin: 0 0 0 8px;
+    width: 150px;
+}
+
+
+
+.review_page_h2 {
+    width: 95px;
+    font-size: 36px;
+    margin: 114px -14px 0 0px;
+    }
+
+.review_wrap.slick-initialized.slick-slider {
+    margin: 420px 0 0 150px;
+    width: 522px;
+}
+
+.review_wrap.slick-initialized.slick-slider > img:nth-child(1) {
+    margin: 255px 0 0 -35px;
+    }
+
+    .review_wrap.slick-initialized.slick-slider > img:nth-child(3) {
+    margin: -181px 0 0 535px;
+}
+
+
+.book_choice_h2 {
+    margin: 0px 0 0 -75px;
+    font-size: 41px;
+}
+
+.book_text {
+    font-size: 8px;
+}
+
+.book_title {
+    font-size: 15px;
+}
+
+
+.book_image img {
+    width: 145px;
+}
+
+.book_choice_item p {
+    width: 170px;
+}
+.book_choice_item {
+    width: 174px;
+    vertical-align: top;
+    padding-right: 0;
+}
+
+
+.book_title {
+    width: 130px;
+}
+
+
+.nav_footer ul a {
+   
+    padding-right: 25px;
+  
+    font-size: 11px;
+}
+
 }
 
 @media (min-width: 415px) and (max-width: 767px) {
