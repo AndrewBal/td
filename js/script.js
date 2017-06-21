@@ -30,6 +30,7 @@
     });
      $('.link_youtube').slick({
         centerPadding: '250px',
+        variableWidth: true,
         slidesToShow: 3,
         slidesToScroll: 1,
         nextArrow: '<img src="./img/next_arrow.png">',
