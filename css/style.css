@@ -540,8 +540,13 @@ header {
 }
 
 .recommend_wrap {
-    margin: 50px 0 0 0;
-    padding-left: 38px;
+    width: 1013px;
+    margin: 120px 0 0 20px;
+    padding-bottom: 30px;
+}
+
+.recommend_slide {
+    padding-right: 100px;
 }
 
 .recommendations {
@@ -558,8 +563,8 @@ header {
 }
 
 .recommendations_h2 {
-    width: 200px;
-    margin: 265px -36px 0 0px;
+    width: 155px;
+    margin: 184px -58px 0 0px;
     font-weight: 800;
     font-size: 30px;
     font-family: 'Conv_Proxima Nova Extrabold';
@@ -570,15 +575,16 @@ header {
     float: right;
     color: #ff451a;
 }
-
+.recommend_slide {
+    padding-right: 80px;
+}
 .recommend_item {
     outline: none;
     vertical-align: top;
     position: relative;
-    margin: 105px -50px 0 118px;
     display: inline-block;
     width: 260px;
-    height: 381px;
+    height: 400px;
     background-color: white;
     -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
@@ -618,13 +624,15 @@ header {
 }
 
 .recommend_wrap.slick-initialized.slick-slider > img:nth-child(3) {
-    margin: -308px 2px 215px 940px;
+    width: 14px;
+    margin: -288px 2px 34px 1080px;
     cursor: pointer;
 }
 
 .recommend_wrap.slick-initialized.slick-slider > img:nth-child(1) {
+    width: 14px;
     cursor: pointer;
-    margin: 281px 18px 0 -28px;
+    margin: 375px 18px 0 -50px;
     position: absolute;
 }
 
@@ -783,7 +791,7 @@ header {
 .buy_slider {
     padding-bottom: 40px;
     float: left;
-    margin: -40px 0 16px 134px;
+    margin: -40px 0 16px 100px;
     width: 871px;
 }
 
@@ -793,12 +801,14 @@ header {
 
 .buy_slider.slick-initialized.slick-slider > img:nth-child(1) {
     position: absolute;
-    margin: 155px 0 0 -45px;
+    width: 14px;
+    margin: 196px 0 0 -45px;
     cursor: pointer;
 }
 
 .buy_slider.slick-initialized.slick-slider > img:nth-child(3) {
-    margin: -68px 0px 62px 888px;
+    width: 14px;
+    margin: -28px 0px 62px 888px;
     cursor: pointer;
 }
 
@@ -1277,7 +1287,7 @@ input {
 }
 
 .nav_footer {
-    margin: 0 0 0 -20px;
+    margin: 0 0 0 -30px;
     display: inline-block;
     list-style: none;
     padding: 27px 0 40px 0;
@@ -1286,7 +1296,7 @@ input {
 .nav_footer ul {
     display: inline-block;
     vertical-align: top;
-    padding-left: 90px;
+    padding-left: 55px;
     margin: 0 0 0 75px;
 }
 
@@ -1294,7 +1304,7 @@ input {
     font-family: 'Conv_Proxima Nova Regular';
     display: block;
     color: #1b1c21;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 14px;
     padding-bottom: 5px;
     transition: all .3s;
@@ -1338,7 +1348,6 @@ input {
 
 .book_page_content {
     margin: -25px 0 0 115px;
-    border-left: 1px solid #c6c6c6;
 }
 
 .book_h2 {
@@ -1445,7 +1454,7 @@ input {
 }
 
 .link_networks {
-    margin: 25px 0 0 100px;
+    margin: 43px 0 0 100px;
 }
 
 .link_networks p {
@@ -1461,24 +1470,26 @@ input {
 }
 
 .link_youtube {
-    width: 834px;
-    margin: 50px 0 0 95px;
+       width: 980px;
+    margin: 80px 0 0 35px;
 }
 
 .link_youtube.slick-initialized.slick-slider > img:nth-child(3) {
-    margin: -28px 0 0 860px;
+    margin: -28px 0 0 955px;
+    width: 14px;
     cursor: pointer;
     position: absolute;
 }
 
 .link_youtube.slick-initialized.slick-slider > img:nth-child(1) {
     cursor: pointer;
+    width: 14px;
     margin: 188px 0 0 -35px;
     position: absolute;
 }
 
 .youtube_item {
-    padding-right: 20px;
+    padding-right: 70px;
     outline: none;
     display: inline-block;
 }
@@ -1557,28 +1568,52 @@ input {
     line-height: 17px;
 }
 
-.starring_2 {
-    margin: 0 0 0 -160px;
+.starring_2.slick-initialized.slick-slider > img:nth-child(3) {
+    position: absolute;
+    width: 14px;
+    margin: -70px 0 0 673px;
+    cursor: pointer;
 }
-
+.starring_2.slick-initialized.slick-slider > img:nth-child(1) {
+    position: absolute;
+    width: 14px;
+    margin: 367px 0 0 -35px;
+    cursor: pointer;
+}
 .starring_h2 {
     font-family: 'Conv_Proxima Nova Extrabold';
     color: #ff451a;
     font-size: 60px;
     font-weight: bolder;
-    margin: -362px 0 0 806px;
+    margin: -362px 0 0 620px;
     width: 15px;
     line-height: 60px;
 }
 
-.actor_1 {
+
+
+.starring_2 {
+
+    width: 650px;
+    margin: 25px 0 0 500px;
+}
+.actor_item {
+    padding-right: 24px;
+}
+
+
+
+.actor_1{
+    height: 379px;
     width: 197px;
-    margin: 10px 0 0 626px;
     background-color: white;
-    height: 460px;
     -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+}
+
+.actor_1 img {
+    width: 197px;
 }
 
 .actor_1 h3 {
@@ -1596,27 +1631,19 @@ input {
     width: 10px;
 }
 
-.actor_2 {
-    margin: -461px 0 0 848px;
+.actor_2{
     background-color: white;
-    height: 460px;
+    height: 380px;
     width: 198px;
     -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
 }
 
-.actor_1_960 {
-    display: none;
+.actor_2 img {
+    width: 198px;
 }
 
-.actor_2_960 {
-    display: none;
-}
-
-.actor_3_960 {
-    display: none;
-}
 
 .actor_2 h3 {
     margin: 25px 0 0 25px;
@@ -1633,14 +1660,16 @@ input {
     width: 10px;
 }
 
-.actor_3 {
-    margin: -461px 0 0 1070px;
+.actor_3{
     background-color: white;
-    height: 460px;
+    height: 380px;
     width: 198px;
     -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+}
+.actor_3 img {
+    width: 198px;
 }
 
 .actor_3 h3 {
@@ -1658,8 +1687,11 @@ input {
     width: 10px;
 }
 
+body > div > div.starring > div > div.starring_2.slick-initialized.slick-slider > div {
+    padding-bottom: 50px;
+}
+
 .app_page {
-    padding-bottom: 80px;
     background-color: #ededed;
 }
 
@@ -1676,8 +1708,8 @@ input {
 }
 
 .app_wrap {
-    padding: 35px 0 35px 0;
-    background-color: #ff451a;
+    height: 408px;
+    background-color: #41434f;
     margin: 0 0 0 90px;
     width: 1029px;
     -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
@@ -1686,12 +1718,19 @@ input {
 }
 
 .app_item {
+    padding-bottom: 46px;
+    padding-right: 90px;
+    border-right: 1px solid #545661;
     vertical-align: top;
     display: inline-block;
 }
 
+.app_wrap > div:nth-child(3) {
+    border-right: none;
+}
+
 .install_app {
-    margin: 40px 0 0 15px;
+    margin: 40px 0 0 0px;
 }
 
 .install_app_p {
@@ -1712,13 +1751,15 @@ input {
 .install_app .app_link_google {
     margin: -46px 0 0 81px;
 }
-
+.print_app {
+    margin: 0 0 0 -90px;
+}
 .print_app_img {
-    margin: 7px 0 0 161px;
+    margin: 20px 0 0 161px;
 }
 
 .print_app_p {
-    margin: -26px 0 34px 195px;
+    margin: -40px 0 34px 195px;
     color: white;
     font-family: 'Conv_Proxima Nova Regular';
     font-weight: bold;
@@ -1755,7 +1796,7 @@ input {
 }
 
 .point_cam_img {
-    margin: -325px 0 0 300px;
+    margin: -375px 0 0 300px;
 }
 
 .point_cam {
@@ -1767,6 +1808,7 @@ input {
 }
 
 .review_page {
+    margin: -200px 0 0 0;
     background-color: #ededed;
     padding-bottom: 70px;
 }
@@ -1774,8 +1816,8 @@ input {
 .review_page_h2 {
     font-size: 60px;
     font-weight: 900;
-    width: 200px;
-    margin: 150px -60px 0 0px;
+        width: 130px;
+    margin: 183px -35px 0 0px;
     font-family: 'Conv_Proxima Nova Extrabold';
     font-weight: 900;
     transform: rotate(270deg);
@@ -1786,12 +1828,12 @@ input {
 }
 
 .review_item {
+    width: 168px;
     outline: none;
     vertical-align: top;
     display: inline-block;
     background-color: white;
     height: 682px;
-    margin: 20px 80px 0 0;
     -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
@@ -1834,18 +1876,28 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
     padding-bottom: 15px;
 }
 
+
+.review_slide {
+    padding-right: 75px;
+}
+
+.review_item {
+    width: 248px;
+}
 .review_wrap.slick-initialized.slick-slider {
-    margin: 395px 0 0 76px;
-    width: 962px;
+    margin: 300px 0 0 100px;
+    width: 915px;
 }
 
 .review_wrap.slick-initialized.slick-slider > img:nth-child(3) {
+    width: 14px;
     margin: -23px 0 0 945px;
     cursor: pointer;
     position: absolute;
 }
 
 .review_wrap.slick-initialized.slick-slider > img:nth-child(1) {
+    width: 14px;
     cursor: pointer;
     margin: 690px 0 0 -50px;
     position: absolute;
@@ -1860,7 +1912,6 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
 
 .book_choice_page {
     background-color: #ededed;
-    padding-bottom: 70px;
 }
 
 .book_choice_wrap {
@@ -1869,7 +1920,7 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
 
 .book_choice_h2 {
     width: 265px;
-    margin: 130px 0 0 -88px;
+    margin: 527px 0 0 -88px;
     font-weight: 800;
     font-size: 60px;
     font-family: 'Conv_Proxima Nova Extrabold';
@@ -1883,11 +1934,10 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
 }
 
 .books_block {
-    margin: 0 0 0 100px;
+    margin: 0 0 0 18px;
 }
 
 .book_choice_item {
-    border-left: 1px solid #c6c6c6;
     margin: 35px 0 0 10px;
     display: inline-block;
     padding-right: 25px;
@@ -1895,24 +1945,24 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
 }
 
 .book_text {
-    margin: 30px 0 0 11px;
+    margin: 30px 0 0 30px;
     color: #8f8f8f;
     font-family: 'Conv_Proxima Nova Regular';
-    font-size: 14px;
+    font-size: 12px;
     width: 220px;
 }
 
 .book_choice_item p {
-    width: 280px;
+    width: 252px;
 }
 
 .book_title {
-    margin: 14px 0 0 14px;
+    margin: 14px 0 0 28px;
     color: #ff451a;
     font-family: 'Conv_Proxima Nova Extrabold';
     font-weight: 900;
-    font-size: 22px;
-    width: 162px;
+    font-size: 24px;
+    width: 190px;
 }
 
 @media (min-width: 960px) and (max-width: 1120px) {
@@ -2037,11 +2087,19 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
     .books_title {
         font-size: 21px;
     }
-    .recommend_wrap {
-        margin: 50px 0 0 43px;
+    .recommendations_h2 {
+            width: 55px;
+    margin: 230px 35px 0 0px
     }
+    .recommend_wrap {
+        width: 750px;
+        margin: 80px 0 0 115px;
+    }
+
+    .recommend_slide {
+    padding-right: 40px;
+}
     .recommend_item {
-        margin: 105px -50px 0 80px;
         width: 215px;
         height: 341px
     }
@@ -2057,7 +2115,11 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         margin: 40px 43px;
     }
     .recommend_wrap.slick-initialized.slick-slider > img:nth-child(3) {
-        margin: -322px 2px 175px 730px;
+        margin: -321px 2px 31px 774px;
+    }
+
+    .recommend_wrap.slick-initialized.slick-slider > img:nth-child(1) {
+        margin: 315px 18px 0 -50px;
     }
     .recommendations .slide_down_btn_2 {
         margin: 70px 0 0 400px;
@@ -2087,18 +2149,21 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
     }
     .buy_h3_1 {
         font-size: 32px;
-        margin: 80px 0 0 104px;
+        margin: 80px 0 0 95px;
     }
     .buy_slider {
-        margin: -40px 0 16px 145px;
+        margin: -40px 0 16px 99px;
         width: 780px;
     }
     .buy_image {
         background-image: url(../img/buy_image_960.png);
         margin: 105px -70px 0 110px;
     }
+    .buy_slider.slick-initialized.slick-slider > img:nth-child(1) {
+        margin: 173px 0 0 -35px;
+    }
     .buy_slider.slick-initialized.slick-slider > img:nth-child(3) {
-        margin: -68px 0px 62px 750px;
+        margin: -48px 0px 62px 750px;
     }
     .video {
         display: none;
@@ -2258,7 +2323,14 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         font-size: 52px;
         margin: 130px 0 0 -150px;
     }
+
+
+
+
     /* single_page */
+
+
+
     .single_page .logo {
         margin: 0 0 0 15px;
     }
@@ -2319,32 +2391,42 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         width: 140px;
         margin: 10px 0 0 100px;
     }
+    .actor_item {
+        padding-right: 10px;
+    }
     .actors {
         line-height: 18px;
         width: 160px;
         margin: -52px 0 0 330px;
     }
     .link_youtube {
-        width: 675px;
-        margin: 225px 0 0 75px;
+        width: 764px;
+    margin: 225px 0 0 41px;
     }
     .link_networks {
         margin: 10px 0 0 100px;
+    }
+    .youtube_item {
+            padding-right: 65px;
     }
     .youtube_item img {
         width: 208px;
     }
     .link_youtube.slick-initialized.slick-slider > img:nth-child(3) {
-        margin: -113px 0 0 687px;
+        margin: -30px 0 0 765px;
     }
     .link_youtube.slick-initialized.slick-slider > img:nth-child(1) {
-        margin: 61px 0 0 -37px;
+        margin: 145px 0 0 -37px;
     }
     .starring {
         padding-top: 0;
     }
     .starring_1 {
         margin: 100px 0 0 50px;
+    }
+    .starring_2 {
+       margin: 5px 0 0 430px;
+       width: 508px;
     }
     .photo_main {
         width: 445px;
@@ -2374,122 +2456,118 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
     }
     .starring_h2 {
         font-size: 49px;
-        margin: -277px 0 0 675px;
+        margin: -277px 0 0 525px;
         line-height: 48px;
     }
-    .actor_1_960 {
-        display: block;
-        width: 160px;
-        margin: 10px 0 0 590px;
-        background-color: white;
-        height: 314px;
-        -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
-        -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
-        box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
-    }
-    .actor_1_960 h3 {
-        margin: 15px 0 0 25px;
-        font-size: 13px;
-        color: #878787;
-        font-family: 'Conv_Proxima Nova Regular';
-    }
-    .actor_1_960 p {
-        font-family: 'Conv_Proxima Nova Regular';
-        font-weight: bold;
-        font-size: 15px;
-        margin: 8px 0 0 25px;
-        width: 10px;
-    }
-    .actor_2_960 {
-        display: block;
-        margin: -314px 0 0 770px;
-        background-color: white;
-        height: 314px;
-        width: 160px;
-        -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
-        -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
-        box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
-    }
-    .actor_2_960 h3 {
-        margin: 15px 0 0 25px;
-        font-size: 13px;
-        color: #878787;
-        font-family: 'Conv_Proxima Nova Regular';
-    }
-    .actor_2_960 p {
-        font-family: 'Conv_Proxima Nova Regular';
-        font-weight: bold;
-        font-size: 15px;
-        margin: 8px 0 0 25px;
-        width: 10px;
-    }
-    .actor_3_960 {
-        display: block;
-        margin: -314px 0 0 952px;
-        background-color: white;
-        height: 314px;
-        width: 160px;
-        -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
-        -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
-        box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
-    }
-    .actor_3_960 h3 {
-        margin: 15px 0 0 25px;
-        font-size: 13px;
-        color: #878787;
-        font-family: 'Conv_Proxima Nova Regular';
-    }
-    .actor_3_960 p {
-        font-family: 'Conv_Proxima Nova Regular';
-        font-weight: bold;
-        font-size: 15px;
-        margin: 8px 0 0 25px;
-        width: 10px;
-    }
     .actor_1 {
-        display: none;
+        display: block;
+        width: 160px;
+        background-color: white;
+        height: 314px;
+        -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+        -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+        box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+    }
+
+    .actor_1 img {
+        width: 160px;
+    }
+    .actor_1 h3 {
+        margin: 15px 0 0 25px;
+        font-size: 13px;
+        color: #878787;
+        font-family: 'Conv_Proxima Nova Regular';
+    }
+    .actor_1 p {
+        font-family: 'Conv_Proxima Nova Regular';
+        font-weight: bold;
+        font-size: 15px;
+        margin: 8px 0 0 25px;
+        width: 10px;
     }
     .actor_2 {
-        display: none;
+        display: block;
+        background-color: white;
+        height: 314px;
+        width: 160px;
+        -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+        -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+        box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+    }
+
+    .actor_2 img {
+        width: 160px;
+    }
+    .actor_2 h3 {
+        margin: 15px 0 0 25px;
+        font-size: 13px;
+        color: #878787;
+        font-family: 'Conv_Proxima Nova Regular';
+    }
+    .actor_2 p {
+        font-family: 'Conv_Proxima Nova Regular';
+        font-weight: bold;
+        font-size: 15px;
+        margin: 8px 0 0 25px;
+        width: 10px;
     }
     .actor_3 {
-        display: none;
+        display: block;
+        background-color: white;
+        height: 314px;
+        width: 160px;
+        -webkit-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+        -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
+        box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     }
-    .actor_1_960 h3 {
+
+    .actor_3 img {
+        width: 160px;
+    }
+    .actor_3 h3 {
         margin: 15px 0 0 25px;
         font-size: 13px;
+        color: #878787;
+        font-family: 'Conv_Proxima Nova Regular';
     }
-    .actor_1_960 p {
+    .actor_3 p {
+        font-family: 'Conv_Proxima Nova Regular';
+        font-weight: bold;
         font-size: 15px;
+        margin: 8px 0 0 25px;
+        width: 10px;
     }
-    .actor_2_960 h3 {
-        margin: 15px 0 0 25px;
-        font-size: 13px;
-    }
-    .actor_2_960 p {
-        font-size: 15px;
-    }
-    .actor_3_960 h3 {
-        margin: 15px 0 0 25px;
-        font-size: 13px;
-    }
-    .actor_3_960 p {
-        font-size: 15px;
-    }
+    
     .app_wrap {
         padding: 0 0 0 0;
         margin: 0 0 0 140px;
         width: 765px;
         height: 375px
     }
+
     .app_h2 {
         margin: 160px 0 0 -102px;
     }
     .app_item {
-        margin: 10px 0 0 10px;
+        border-right: none;
+        width: 20px;
+        padding-right: 0;
+        margin: 0px 0 0 10px;
+    }
+
+    .starring_2.slick-initialized.slick-slider > img:nth-child(1) {
+        margin: 288px 0 0 -25px;
+    }
+
+    .starring_2.slick-initialized.slick-slider > img:nth-child(3) {
+        margin: -76px 0 0 511px;
     }
     .install_app {
-        margin: 50px 0 0 15px;
+        padding-right: 98px;
+    margin: 0px 0 0 15px;
+    border-right: 1px solid #545661;
+    padding-bottom: 44px;
+    padding-top: 48px;
     }
     .install_app_img img {
         width: 100px;
@@ -2509,7 +2587,11 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         margin: 20px 0 0 -80px;
     }
     .print_app {
-        margin: 0 0 0 90px;
+        padding-right: 205px;
+    border-right: 1px solid #545661;
+    margin: 0 0 0 150px;
+    padding-bottom: 47px;
+    padding-top: 1px;
     }
     .print_app_p {
         margin: -3px 0 0px 4px;
@@ -2539,7 +2621,8 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         width: 100px;
     }
     .point_cam {
-        margin: 0 0 0 90px;
+        padding-right: 45px;
+        margin: 0 0 0 365px;
     }
     .point_cam_img {
         margin: 45px 0 0 0px;
@@ -2560,11 +2643,14 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
     }
     .review_page_h2 {
         font-size: 46px;
-        margin: 100px -57px 0 0px;
+        margin: 132px -23px 0 0;
+    }
+    .review_slide {
+        padding-right: 40px;
     }
     .review_wrap.slick-initialized.slick-slider {
-        margin: 420px 0 0 145px;
-        width: 700px;
+        margin: 360px 0 0 100px;
+        width: 767px;
     }
     .review_wrap div:nth-child(5) .review_h3 {
         margin: 20px 0 0 16px;
@@ -2576,10 +2662,10 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         margin: 20px 0 0 16px;
     }
     .review_wrap.slick-initialized.slick-slider > img:nth-child(3) {
-        margin: -240px 0 0 700px;
+        margin: -41px 0 0 770px;
     }
     .review_wrap.slick-initialized.slick-slider > img:nth-child(1) {
-        margin: 295px 0 0 -45px;
+        margin: 490px 0 0 -45px;
     }
     .review_p {
         font-size: 12px;
@@ -2613,25 +2699,25 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         display: none;
     }
     .books_block {
-        border-left: 1px solid #c6c6c6;
-        margin: 35px 0 0 95px;
+        margin: 35px 0 0 50px;
     }
     .book_choice_h2 {
-        margin: 54px 0 0 -75px;
+        margin: 410px 0 0 -75px;
         font-size: 52px;
     }
     .book_title {
         font-size: 19px;
-        margin: 14px 0 0 10px;
+        margin: 14px 0 0 30px;
     }
     .book_text {
         font-size: 10px;
-        margin: 20px 0 0 11px;
+        margin: 20px 0 0 30px;
     }
     .book_image img {
         width: 185px;
     }
     .book_choice_item {
+        vertical-align: top;
         padding-right: 50px;
         padding-left: 25px;
         margin: -10px 0 0 -9px;
@@ -2736,7 +2822,6 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         padding-left: 0;
         position: absolute;
         width: 100%;
-        /* padding: 150px 0 490px 0; */
         top: 0;
         left: 0;
         display: block;
@@ -2913,7 +2998,6 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         font-size: 21px;
     }
     .recommend_item {
-        margin: 105px -50px 0 80px;
         width: 230px;
         height: 341px
     }
@@ -3013,7 +3097,7 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
     }
     .partners_h2 {
         font-size: 52px;
-        margin: 172px 0 0 -150px;
+        margin: 133px 0 0 -122px;
     }
     .partners_p {
         width: 585px;
@@ -3157,12 +3241,19 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
     .recommendations #burger .line_3 {
         background-color: #000000;
     }
+    .recommend_slide {
+        padding-right: 10px;
+    }
     .recommend_item {
         height: 270px;
         width: 170px;
     }
     .recommend_wrap.slick-initialized.slick-slider > img:nth-child(3) {
-        margin: -105px 0px 175px 593px;
+        margin: -42px 0px 175px 550px
+    }
+
+    .recommend_wrap.slick-initialized.slick-slider > img:nth-child(1) {
+        margin: 242px 18px 0 -30px;
     }
     .recommend_image {
         background-image: url(../img/recommend_image1_768.png);
@@ -3179,11 +3270,13 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
     }
     .recommendations_h2 {
         font-size: 30px;
-        margin: 250px -45px 0 -115px;
+        margin: 180px -10px 0 -117px
     }
     .recommend_wrap {
-        width: 633px;
-        margin: -10px 0 0 25px;
+        padding-bottom: 0;
+        width: 538px;
+    margin: 80px 0 0 100px;
+
     }
     .recommend_name {
         margin: 160px 0 0 39px
@@ -3193,6 +3286,9 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
     }
     .recommendations .slide_down_btn_2 {
         margin: 40px 0 0 350px;
+    }
+    .buy {
+        margin-top: -170px;
     }
     .buy .nav_bar ul a {
         font-weight: normal;
@@ -3234,12 +3330,17 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
     }
     .buy_slider {
         width: 570px;
+        margin: -60px 0 16px 133px;
     }
     .buy_slider.slick-initialized.slick-slider > img:nth-child(3) {
         margin: -68px 0px 62px 590px;
     }
     .buy_slider.slick-initialized.slick-slider > img:nth-child(1) {
         margin: 155px 0 0 -40px;
+    }
+
+    .parents .logo img {
+        padding-top: 1px;
     }
     .parents .nav_bar ul a {
         font-weight: normal;
@@ -3268,7 +3369,7 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         margin: 54px 0 0 125px;
     }
     .parents_h2 {
-        margin: 132px 0 0 -120px;
+        margin: 142px 0 0 -120px;
     }
     .parents_p {
         width: 585px;
@@ -3414,7 +3515,14 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
     .contacts #burger .line_3 {
         background-color: #000000;
     }
+
+
+
     /* single_page */
+
+
+
+
     .single_page .nav_bar ul a {
         width: 166px;
         font-family: 'Conv_Proxima Nova Regular';
@@ -3525,22 +3633,36 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         width: 320px;
     }
     .link_youtube {
-        width: 520px;
-        margin: 170px 0 0 65px;
+       width: 612px;
+    margin: 170px 0 0 25px;
+    }
+.youtube_item {
+            padding-right: 60px;
+    }
+.link_youtube.slick-initialized.slick-slider > img:nth-child(3) {
+        margin: -26px 0 0 620px;
+    }
+    .link_youtube.slick-initialized.slick-slider > img:nth-child(1) {
+        margin: 83px 0 0 -37px;
     }
     .youtube_item img {
         width: 160px;
     }
-    .link_youtube.slick-initialized.slick-slider > img:nth-child(1) {
-        margin: 45px 0 0 -35px;
-    }
-    .link_youtube.slick-initialized.slick-slider > img:nth-child(3) {
-        margin: -60px 0 0 545px;
-    }
+    
+
+
     .starring_h2 {
         font-size: 39px;
-        margin: -235px 0 0 570px;
+        margin: -235px 0 0 420px;
         line-height: 40px;
+    }
+
+    .starring_2 {
+       width: 412px;
+    margin: 10px 0 0 323px
+    }
+    .actor_item {
+        padding-right: 10px;
     }
     .actor_main h2 {
         font-size: 19px;
@@ -3573,80 +3695,76 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         -moz-box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
         box-shadow: 4px 6px 15px -4px rgba(0, 0, 0, 1);
     }
+    
+    .actor_1 img {
+        width: 128px;
+    }
     .actor_1 {
-        display: none;
+        background-color: white;
+        display: block;
+        width: 128px;
+        height: 245px;
+    }
+    .actor_1 h3 {
+        color: #878787;
+        font-family: 'Conv_Proxima Nova Regular';
+        margin: 10px 0 0 14px;
+        font-size: 10px;
+    }
+    .actor_1 p {
+        width: 10px;
+        font-family: 'Conv_Proxima Nova Extrabold';
+        font-size: 11px;
+        margin: 5px 0 0 15px;
+    }
+    .actor_2 img {
+        width: 128px;
     }
     .actor_2 {
-        display: none;
+        background-color: white;
+        display: block;
+        width: 128px;
+        height: 245px;
+    }
+    .actor_2 h3 {
+        color: #878787;
+        font-family: 'Conv_Proxima Nova Regular';
+        margin: 10px 0 0 14px;
+        font-size: 10px;
+    }
+    .actor_2 p {
+        width: 10px;
+        font-family: 'Conv_Proxima Nova Extrabold';
+        font-size: 11px;
+        margin: 5px 0 0 15px;
+    }
+    .actor_3 img {
+        width: 128px;
     }
     .actor_3 {
-        display: none;
-    }
-    .actor_1_960 img {
-        width: 128px;
-    }
-    .actor_1_960 {
         background-color: white;
         display: block;
-        margin: 10px 0 0 490px;
         width: 128px;
         height: 245px;
     }
-    .actor_1_960 h3 {
+    .actor_3 h3 {
         color: #878787;
         font-family: 'Conv_Proxima Nova Regular';
         margin: 10px 0 0 14px;
         font-size: 10px;
     }
-    .actor_1_960 p {
+    .actor_3 p {
         width: 10px;
         font-family: 'Conv_Proxima Nova Extrabold';
         font-size: 11px;
         margin: 5px 0 0 15px;
     }
-    .actor_2_960 img {
-        width: 128px;
+
+    .starring_2.slick-initialized.slick-slider > img:nth-child(3) {
+        margin: -75px 0 0 420px;
     }
-    .actor_2_960 {
-        background-color: white;
-        display: block;
-        margin: -245px 0 0 634px;
-        width: 128px;
-        height: 245px;
-    }
-    .actor_2_960 h3 {
-        color: #878787;
-        font-family: 'Conv_Proxima Nova Regular';
-        margin: 10px 0 0 14px;
-        font-size: 10px;
-    }
-    .actor_2_960 p {
-        width: 10px;
-        font-family: 'Conv_Proxima Nova Extrabold';
-        font-size: 11px;
-        margin: 5px 0 0 15px;
-    }
-    .actor_3_960 img {
-        width: 128px;
-    }
-    .actor_3_960 {
-        background-color: white;
-        display: block;
-        margin: -245px 0 0 779px;
-        width: 128px;
-        height: 245px;
-    }
-    .actor_3_960 h3 {
-        color: #878787;
-        font-family: 'Conv_Proxima Nova Regular';
-        margin: 10px 0 0 14px;
-        font-size: 10px;
-    }
-    .actor_3_960 p {
-        width: 10px;
-        font-family: 'Conv_Proxima Nova Extrabold';
-        font-size: 11px;
-        margin: 5px 0 0 15px;
+    .starring_2.slick-initialized.slick-slider > img:nth-child(1) {
+         margin: 221px 0 0 -28px; 
     }
     .app_wrap {
         margin: 0 0 0 100px;
@@ -3657,8 +3775,15 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         margin: 103px 0 0 -125px;
         font-size: 26px;
     }
+    .app_item {
+        border-right: none;
+        padding-bottom: 0;
+        padding-right: 0;
+    }
     .install_app {
-        margin: 45px 0 0 -15px;
+        border-right: 1px solid #545661;
+        margin: 0px 0 0 -15px;
+    padding: 45px 20px 26px 0px;
     }
     .install_app_img {
         margin: 0 0 0 -57px;
@@ -3675,10 +3800,14 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         margin: 35px 0 0 -60px;
     }
     .install_app .app_link_google {
-        margin: -34px 0 0 342px;
+        margin: -34px 0 0 352px;
+        float: right;
+        position: absolute;
     }
     .print_app {
-        margin: -265px 0 0 250px;
+        border-right: 1px solid #545661;
+        margin: 0 0 0 70px;
+        padding: 6px 45px 26px 0px;
     }
     .print_app_img {
         margin: 0 0 0 -18px;
@@ -3700,7 +3829,7 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         font-size: 13px;
     }
     .point_cam {
-        margin: -250px 0 0 90px;
+        margin: -258px 0 0 100px;
     }
     .point_cam_img {
         margin: -237px 0 0 333px;
@@ -3713,16 +3842,20 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         margin: 24px 0 0 319px;
         font-size: 13px;
     }
-    .review_page_h2 {
-        font-size: 36px;
+
+    .review_page {
+        margin: -350px 0 0 -45px;
     }
+    
     .review_img img {
         width: 140px;
+    }
+    .review_slide {
+        padding-right: 60px;
     }
     .review_item {
         height: 395px;
         width: 140px;
-        margin: 20px 45px 0 0;
     }
     .review_p {
         font-size: 10px;
@@ -3747,22 +3880,26 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         width: 150px;
     }
     .review_page_h2 {
-        width: 95px;
+        width: 19px;
         font-size: 36px;
-        margin: 114px -14px 0 0px;
+        margin: 128px 10px 0 0px;
     }
     .review_wrap.slick-initialized.slick-slider {
         margin: 420px 0 0 150px;
-        width: 522px;
+        width: 560px;
     }
     .review_wrap.slick-initialized.slick-slider > img:nth-child(1) {
-        margin: 255px 0 0 -35px;
+        margin: 366px 0 0 -35px;
     }
     .review_wrap.slick-initialized.slick-slider > img:nth-child(3) {
-        margin: -181px 0 0 535px;
+        margin: -43px 0 0 558px;
+    }
+
+    .books_block {
+        margin: 0 0 0 72px;
     }
     .book_choice_h2 {
-        margin: 0px 0 0 -75px;
+        margin: 400px 0 0 -25px;
         font-size: 41px;
     }
     .book_text {
@@ -4002,14 +4139,14 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         font-size: 14px;
     }
     .recommend_wrap {
-        width: 220px;
-        margin: -55px 0 0 65px;
+          width: 179px;
+    margin: 60px 0 0 133px;
     }
     .recommendations_h2 {
-        margin: 250px -100px 0 -114px;
+        margin: 177px -45px 0 -115px;
     }
     .recommend_wrap.slick-initialized.slick-slider > img:nth-child(3) {
-        margin: -109px 0px 175px 190px;
+        margin: -43px 0px 175px 190px;
     }
     .recommendations .slide_down_btn_2 {
         margin: 20px 0 0 181px;
@@ -4043,6 +4180,9 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         display: block;
         padding: 155px 0 0 90px;
     }
+    .buy {
+        margin-top: -130px;
+    }
     .buy_h2 {
         font-size: 42px;
         margin: 77px 0 0 -160px
@@ -4069,21 +4209,21 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         margin: 80px 0 0 90px;
     }
     .buy_slider {
-        width: 293px;
-        margin: -40px 0 16px 58px;
+            width: 293px;
+    margin: -70px 0 16px 90px
     }
     .buy_slider.slick-initialized.slick-slider > img:nth-child(3) {
-        margin: -118px 0px 86px 305px;
+        margin: -150px 0px 65px 305px;
     }
     .buy_slider.slick-initialized.slick-slider > img:nth-child(1) {
-        margin: 133px 0 0 -25px;
+        margin: 150px 0 0 -25px;
     }
     .buy_image {
         background-image: url(../img/buy_image_415.png);
         margin: 105px -80px 0 73px;
     }
     .parents #burger {
-        margin: 282px 60px 0 0;
+        margin: 29px 60px 0 0;
     }
     .parents #burger .line_1 {
         width: 27px;
@@ -4377,9 +4517,19 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
     .nav_footer ul a {
         font-weight: normal;
     }
+
+
     /* !!! SINGLE_PAGE !!! */
+
+
+    .book_h2 {
+        margin: 10px 0 0 -186px;
+    }
     .book_page {
         height: 1100px;
+    }
+    .single_page .logo {
+        padding-top: 45px;
     }
     .single_page #burger {
         margin: 72px 60px 0 0;
@@ -4406,36 +4556,44 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         height: 380px;
     }
     .starring_h2 {
-        margin: -540px 0 0 689px;
+        margin: -315px 0 0 150px;
         padding-bottom: 230px;
     }
     .starring_2 {
-        margin: 225px 0 0 -484px;
-    }
+           width: 275px;
+    margin: 10px 0 0 82px;
+}
     .actor_main {
         margin: 60px 0 0 -110px;
     }
-    .actor_2_960 {
-        margin: -245px 0 0 627px;
-    }
-    .actor_3_960 {
-        margin: -245px 0 0 764px;
-    }
+    .actor_item {
+    padding-right: 10px;
+}
+   .starring_2.slick-initialized.slick-slider > img:nth-child(3) {
+        margin: -75px 0 0 284px;
+   }
     .link_youtube {
         width: 330px;
         margin: 550px 0 0 -44px;
     }
     .link_youtube.slick-initialized.slick-slider > img:nth-child(3) {
-        margin: -60px 0 0 340px;
+        margin: -28px 0 0 340px;
     }
     .link_youtube.slick-initialized.slick-slider > img:nth-child(1) {
-        margin: 45px 0 0 -20px;
+        margin: 80px 0 0 -20px;
     }
     .youtube_item.slick-slide.slick-current.slick-active {
         width: 170px;
     }
     .youtube_item {
         padding-right: 10px;
+    }
+    
+    .app_page {
+        margin: -60px 0 0 0;
+    }
+    .app_item {
+        border-right: none;
     }
     .app_wrap {
         margin: 0 0 0 57px;
@@ -4446,42 +4604,46 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         margin: 103px 0 0 -140px;
     }
     .install_app {
+        border-right: none;
         margin: 30px 0 0 -50px;
     }
     .print_app {
-        margin: -198px 0 0 210px;
+        border-right: none;
+        margin: -230px 0 0 210px;
     }
     .point_cam {
-        margin: 202px 0 0 -319px;
+        margin: 165px 0 0 -319px;
     }
     .download_img {
-        margin: 100px 0 0 -23px;
+        margin: 65px 0 0 -23px;
     }
     .point_cam_p {
         margin: 24px 0 0 340px;
         width: 125px;
     }
     .install_app .app_link_apple {
-        margin: 175px 0 0 100px;
+        margin: 135px 0 0 100px;
         position: absolute;
     }
     .install_app .app_link_google {
         position: absolute;
-        margin: 210px 0 0 100px;
+        margin: 170px 0 0 100px;
     }
-    .recommendations_h2 {
-        margin: 272px -50px 0 0;
-        width: 170px;
-    }
+    
     .review_wrap.slick-initialized.slick-slider {
-        margin: 371px 0 0 110px;
+        margin: 371px 0 0 178px;
         width: 158px;
     }
     .review_wrap.slick-initialized.slick-slider > img:nth-child(3) {
-        margin: -175px 0 0 168px;
+        margin: -46px 0 0 168px;
     }
     .book_choice_item {
-        padding-bottom: 45px;
+        margin: -20px 0 0 15px;
+        padding-bottom: 55px;
+    }
+
+    .book_choice_h2 {
+        margin: 329px 0 0 -25px;
     }
     .books_block {
         margin: 0 0 0 95px;
@@ -4545,7 +4707,6 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         padding-left: 0;
         position: absolute;
         width: 100%;
-        /* padding: 150px 0 490px 0; */
         top: 0;
         left: 0;
         display: block;
@@ -4840,7 +5001,7 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         width: 170px;
     }
     .recommend_wrap.slick-initialized.slick-slider > img:nth-child(3) {
-        margin: -140px 0px 175px 190px;
+        margin: -35px 0px 174px 187px;
     }
     .recommend_wrap.slick-initialized.slick-slider > img:nth-child(1) {
         margin: 249px 18px 0 -28px;
@@ -4862,7 +5023,7 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         height: 3px;
     }
     .recommendations .slide_down_btn_2 {
-        margin: 70px 0 0 135px;
+        margin: -100px 0 0 135px;
     }
     .buy #burger {
         margin: 52px 0 0 270px;
@@ -5263,7 +5424,12 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
     .footer ul:nth-child(4) {
         margin: 0px 0 0 -22px;
     }
+
+
     /* !!! SIMGLE_PAGE !!! */
+
+
+
     .book_page {
         height: 900px;
     }
@@ -5387,10 +5553,10 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         padding-right: 5px;
     }
     .link_youtube.slick-initialized.slick-slider > img:nth-child(3) {
-        margin: -50px 0 0 265px
+        margin: -24px 0 0 265px
     }
     .link_youtube.slick-initialized.slick-slider > img:nth-child(1) {
-        margin: 37px 0 0 -20px;
+        margin: 60px 0 0 -20px;
     }
     .youtube_item img {
         width: 127px;
@@ -5405,7 +5571,7 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         display: none;
     }
     .starring_h2 {
-        margin: -460px 0 0 645px;
+        margin: -240px 0 0 122px;
         font-size: 29px;
         line-height: 29px;
     }
@@ -5445,78 +5611,67 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         display: block;
         width: 106px;
     }
+    
     .actor_1 {
-        display: none;
+        background-color: white;
+        display: block;
+        height: 177px;
+        width: 94px;
+    }
+    .actor_1 img {
+        width: 94px;
+    }
+    .actor_1 h3 {
+        margin: 5px 0 0 10px;
+        color: #878787;
+        font-family: 'Conv_Proxima Nova Regular';
+        font-size: 8px;
+    }
+    .actor_1 p {
+        margin: 3px 0 0 10px;
+        width: 10px;
+        font-family: 'Conv_Proxima Nova Regular';
+        font-weight: bold;
+        font-size: 9px;
     }
     .actor_2 {
-        display: none;
+        background-color: white;
+        display: block;
+        height: 177px;
+        width: 94px;
+    }
+    .actor_2 img {
+        width: 94px;
+    }
+    .actor_2 h3 {
+        margin: 5px 0 0 10px;
+        color: #878787;
+        font-family: 'Conv_Proxima Nova Regular';
+        font-size: 8px;
+    }
+    .actor_2 p {
+        margin: 3px 0 0 10px;
+        width: 10px;
+        font-family: 'Conv_Proxima Nova Regular';
+        font-weight: bold;
+        font-size: 9px;
     }
     .actor_3 {
-        display: none;
-    }
-    .actor_1_960 {
-        margin: 180px 0 0 495px;
         background-color: white;
         display: block;
         height: 177px;
         width: 94px;
     }
-    .actor_1_960 img {
+    .actor_3 img {
         width: 94px;
     }
-    .actor_1_960 h3 {
+    .actor_3 h3 {
         margin: 5px 0 0 10px;
         color: #878787;
         font-family: 'Conv_Proxima Nova Regular';
         font-size: 8px;
     }
-    .actor_1_960 p {
-        margin: 3px 0 0 10px;
-        width: 10px;
-        font-family: 'Conv_Proxima Nova Regular';
-        font-weight: bold;
-        font-size: 9px;
-    }
-    .actor_2_960 {
-        margin: -177px 0 0 598px;
-        background-color: white;
-        display: block;
-        height: 177px;
-        width: 94px;
-    }
-    .actor_2_960 img {
-        width: 94px;
-    }
-    .actor_2_960 h3 {
-        margin: 5px 0 0 10px;
-        color: #878787;
-        font-family: 'Conv_Proxima Nova Regular';
-        font-size: 8px;
-    }
-    .actor_2_960 p {
-        margin: 3px 0 0 10px;
-        width: 10px;
-        font-family: 'Conv_Proxima Nova Regular';
-        font-weight: bold;
-        font-size: 9px;
-    }
-    .actor_3_960 {
-        margin: -177px 0 0 701px;
-        background-color: white;
-        display: block;
-        height: 177px;
-        width: 94px;
-    }
-    .actor_3_960 img {
-        width: 94px;
-    }
-    .actor_3_960 h3 {
-        margin: 5px 0 0 10px;
-        color: #878787;
-        font-family: 'Conv_Proxima Nova Regular';
-        font-size: 8px;
-    }
-    .actor_3_960 p {
+    .actor_3 p {
         margin: 3px 0 0 10px;
         width: 10px;
         font-family: 'Conv_Proxima Nova Regular';
@@ -5524,15 +5679,42 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         font-size: 9px;
     }
     .starring_2 {
-        margin: 225px 0 0 -484px;
+       margin: 189px 0 0 61px;
+    width: 206px;
     }
     .actor_main {
         margin: 60px 0 0 -110px;
     }
+
+
     .app_wrap {
         margin: 0 0 0 50px;
         width: 258px;
         height: 356px;
+    }
+
+    .actor_item {
+        padding-right: 10px;
+    }
+
+    .app_item {
+        border-right: none;
+        padding-right: 0px;
+        padding-bottom: 0;
+    }
+
+    .starring_2.slick-initialized.slick-slider > img:nth-child(1) {
+        width: 11px;
+    margin: 155px 0 0 -20px;
+    }
+
+    .starring_2.slick-initialized.slick-slider > img:nth-child(3) {
+        width: 11px;
+        margin: -71px 0 0 212px;
+    }
+
+    .app_page {
+        margin: -65px 0 0 -10px;
     }
     .app_h2 {
         font-size: 21px;
@@ -5557,7 +5739,7 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         font-size: 11px;
     }
     .install_app {
-        margin: 0px 0 0 -123px;
+        margin: 30px 0 0 -123px;
     }
     .install_app img {
         width: 70px;
@@ -5569,7 +5751,7 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         width: 90px;
     }
     .print_app {
-        margin: -180px 0 0 -16px;
+        margin: -193px 0 0 -16px;
     }
     .point_cam {
         margin: 290px 0 0 -330px
@@ -5582,26 +5764,30 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         height: 25px;
         border-radius: 4px;
         padding: 2px 5px 0 5px;
-        margin: 75px 0 0 157px;
+        margin: 30px 0 0 157px;
     }
     .install_app .app_link_apple {
-        margin: 136px 0 0 118px;
+        margin: 90px 0 0 118px;
         position: absolute;
     }
     .install_app .app_link_google {
         position: absolute;
-        margin: 170px 0 0 118px;
+        margin: 120px 0 0 118px;
     }
     .recommend_wrap {
-        margin: -95px 0 0 15px;
+        margin: 65px 0 0 70px;
     }
     .recommendations_h2 {
-        margin: 294px -44px 0 0;
-        width: 130px;
+        margin: 248px 15px 0 0;
+    width: 20px;
+    }
+
+    .review_slide {
+        padding-right: 10px;
     }
     .review_wrap.slick-initialized.slick-slider {
         margin: 371px 0 0 110px;
-        width: 158px;
+        width: 116px;
     }
     .review_wrap.slick-initialized.slick-slider > img:nth-child(3) {
         margin: -175px 0 0 168px;
@@ -5609,6 +5795,7 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
     .map_320 {
         display: block;
     }
+    
     .buy_h2 {
         font-size: 32px;
         margin: 23px 0 0 -170px;
@@ -5626,18 +5813,18 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         ;
     }
     .review_page_h2 {
-        width: 110px;
-        margin: 85px -25px 0 0px;
+            width: 70px;
+    margin: 87px 20px 0 0px;
         font-size: 32px;
     }
     .review_img img {
         width: 110px;
     }
     .review_wrap.slick-initialized.slick-slider > img:nth-child(3) {
-        margin: -175px 0 0 135px;
+        margin: -45px 0 0 135px;
     }
     .review_wrap.slick-initialized.slick-slider > img:nth-child(1) {
-        margin: 179px 0 0 -33px;
+        margin: 290px 0 0 -33px;
     }
     .review_item {
         width: 110px;
@@ -5668,20 +5855,19 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         font-size: 9px;
     }
     .review_wrap.slick-initialized.slick-slider {
-        margin: 291px 0 0 110px;
+        margin: 200px 0 0 110px;
     }
-    .book_choice_item {
-        padding-bottom: 45px;
-    }
+
     .books_block {
         margin: 0 0 0 95px;
     }
     .book_choice_h2 {
-        margin: -27px 0 0 -65px;
+        margin: 225px 0 0 -65px;
         font-size: 32px;
     }
     .book_text {
-        margin: 15px 0 0 14px;
+        width: 20px;
+        margin: 15px 0 0 29px;
         font-size: 8px;
     }
     .book_title {
@@ -5695,10 +5881,11 @@ body > div > div.review_page > div > div.review_wrap.slick-initialized.slick-sli
         width: 120px;
     }
     .book_choice_item p {
-        width: 150px;
+        width: 142px;
     }
     .book_choice_item {
-        margin: 0 0 0 -17px;
+        padding-bottom: 60px;
+        margin: -35px 0 0 -17px;
         padding-right: 0;
         padding-left: 6px;
     }

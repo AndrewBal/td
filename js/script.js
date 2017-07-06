@@ -21,7 +21,6 @@
     });
 
     $('.recommend_wrap').slick({
-        centerPadding: '250px',
         slidesToShow: 3,
         slidesToScroll: 1,
         variableWidth: true,
@@ -32,6 +31,14 @@
         centerPadding: '250px',
         variableWidth: true,
         slidesToShow: 3,
+        slidesToScroll: 1,
+        nextArrow: '<img src="./img/next_arrow.png">',
+        prevArrow: '<img src="./img/prev_arrow.png">'
+    }); 
+
+     $('.starring_2').slick({
+        variableWidth: true,
+        slidesToShow: 2,
         slidesToScroll: 1,
         nextArrow: '<img src="./img/next_arrow.png">',
         prevArrow: '<img src="./img/prev_arrow.png">'
